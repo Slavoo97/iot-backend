@@ -50,8 +50,8 @@ class MqttSubscribeHumidityCommand extends Command
         $this->mqttService->listen($this->mqttConfig->getHumidityTopic(), function ($topic, $message) use ($io) {
             $data = json_decode($message, true);
 
-            if (isset($data['value'])) {
-                $humidityValue = $data['value'];
+            if (isset($data['metrics'][0]['value'])) {
+                $humidityValue = $data['metrics'][0]['value'];
                 $io->text($humidityValue);
 
                 $this->humidityRepository->create($humidityValue);

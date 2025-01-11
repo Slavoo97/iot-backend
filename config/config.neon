@@ -51,5 +51,5 @@ services:
 	    class: App\Command\MqttSubscribeTemperatureCommand
 	    tags: [console.command: app:subscribe:temperature]
 	commands.bar:
-	    class: App\Command\MqttSubscribeTemperatureCommand
-	    tags: [console.command: app:subscribe:temperature]
+	    class: App\Command\MqttSubscribeHumidityCommand
+	    tags: [console.command: app:subscribe:humidity]

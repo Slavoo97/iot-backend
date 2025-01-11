@@ -10,4 +10,4 @@ parameters:
         port: 1883
         clientId: nette-mqtt-client
         temperature-topic: kpi/dune/metrics/plant/temperature
-        humidity-topic: kpi/dune/metrics/plant/humidity
+        humidity-topic: kpi/dune/metrics/plant/moisture/hd519cq

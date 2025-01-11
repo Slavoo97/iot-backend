@@ -98,4 +98,15 @@ final class HumidityRepository extends EntityRepository {
 
     }
 
+    public function deleteOlderThan(DateTime $date): int
+    {
+        $qb = $this->createQueryBuilder('t');
+
+        $qb->delete()
+            ->where('t.date < :date')
+            ->setParameter('date', $date);
+
+        return $qb->getQuery()->execute();
+    }
+
 }

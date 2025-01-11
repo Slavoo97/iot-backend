@@ -2,6 +2,7 @@
 
 namespace App\Command;
 
+use App\Model\Services\HumidityRepository;
 use App\Model\Services\TemperatureRepository;
 use DateTime;
 use Symfony\Component\Console\Command\Command;
@@ -16,10 +17,14 @@ class DeleteOldTemperatureCommand extends Command
     /** @var TemperatureRepository */
     private TemperatureRepository $temperatureRepository;
 
-    public function __construct(TemperatureRepository $temperatureRepository)
+    /** @var HumidityRepository */
+    private HumidityRepository $humidityRepository;
+
+    public function __construct(HumidityRepository $humidityRepository, TemperatureRepository $temperatureRepository)
     {
         parent::__construct();
         $this->temperatureRepository = $temperatureRepository;
+        $this->humidityRepository = $humidityRepository;
     }
 
     protected function configure(): void
@@ -37,6 +42,7 @@ class DeleteOldTemperatureCommand extends Command
 
         $thresholdDate = new DateTime('-1 month');
         $deletedCount = $this->temperatureRepository->deleteOlderThan($thresholdDate);
+        $this->humidityRepository->deleteOlderThan($thresholdDate);
 
         $io->success("Deleted {$deletedCount} temperature records older than one month.");
 

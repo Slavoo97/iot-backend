@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb419cf-6dbe-42cd-8a8e-9ec2059ec440" name="Changes" comment="">
+    <list default="true" id="deb419cf-6dbe-42cd-8a8e-9ec2059ec440" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Command/DeleteOldTemperatureCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Command/DeleteOldTemperatureCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Command/MqttSubscribeHumidityCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Command/MqttSubscribeHumidityCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Services/HumidityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Services/HumidityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.local.neon" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.local.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.neon" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/.data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/.data/db/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/.data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/.data/db/ibdata1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,11 +57,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736606290293</updated>
-      <workItem from="1736606291541" duration="140000" />
+      <workItem from="1736606291541" duration="5070000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1736606590859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736606590859</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
