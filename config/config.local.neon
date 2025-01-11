@@ -1,0 +1,13 @@
+parameters:
+    doctrine:
+        port: 3307
+        host: db
+        user: root
+        password: iot
+        dbname: iot
+    mqtt:
+        host: 147.232.205.176
+        port: 1883
+        clientId: nette-mqtt-client
+        temperature-topic: kpi/dune/metrics/plant/temperature
+        humidity-topic: kpi/dune/metrics/plant/humidity

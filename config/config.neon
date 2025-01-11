@@ -1,0 +1,55 @@
+extensions:
+    apiRouter: Contributte\ApiRouter\DI\ApiRouterExtension
+    console: Contributte\Console\DI\ConsoleExtension(%consoleMode%)
+    apiDocu: Contributte\ApiDocu\DI\ApiDocuExtension
+
+
+apiDocu:
+	apiDir: "%appDir%/../www/apiDocs"
+
+parameters:
+
+
+application:
+	errorPresenter: Error
+	scanDirs: false
+	mapping:
+		*: App\Controllers\*Controller
+
+includes:
+    - nettrine.neon
+
+session:
+	expiration: 14 days
+
+services:
+	- App\Http\ApiResponseFormatter
+	- App\Routing\RouterFactory
+	- App\Utils\Services\MqttService
+	- App\Utils\MqttConfig(temperatureTopic: %mqtt.temperature-topic%, host: %mqtt.host%, port: %mqtt.port%, clientId: %mqtt.clientId%, humidityTopic: %mqtt.humidity-topic%)
+
+	router: @App\Routing\RouterFactory::create
+
+	# Api endpoints
+	#
+	- App\Controllers\ImagePostController
+	- App\Controllers\GetLastTemperatureController
+	- App\Controllers\GetLastHumidityController
+	- App\Controllers\GetLastImageController
+
+
+	TemperatureRepository:
+	    type: App\Model\Services\TemperatureRepository
+	    factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Temperature')
+	HumidityRepository:
+		type: App\Model\Services\HumidityRepository
+		factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Humidity')
+	ImageRepository:
+	    type: App\Model\Services\ImageRepository
+	    factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Image')
+	commands.foo:
+	    class: App\Command\MqttSubscribeTemperatureCommand
+	    tags: [console.command: app:subscribe:temperature]
+	commands.bar:
+	    class: App\Command\MqttSubscribeTemperatureCommand
+	    tags: [console.command: app:subscribe:temperature]

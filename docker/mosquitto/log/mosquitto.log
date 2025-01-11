@@ -1,0 +1,1384 @@
+1736352891: mosquitto version 2.0.20 starting
+1736352891: Config loaded from /mosquitto/config/mosquitto.conf.
+1736352891: Opening ipv4 listen socket on port 1883.
+1736352891: Opening ipv6 listen socket on port 1883.
+1736352891: mosquitto version 2.0.20 running
+1736352919: New connection from 192.168.65.1:61664 on port 1883.
+1736352920: Client <unknown> disconnected due to protocol error.
+1736352920: New connection from 192.168.65.1:61665 on port 1883.
+1736352920: Client <unknown> disconnected due to protocol error.
+1736352920: New connection from 192.168.65.1:61666 on port 1883.
+1736352920: Client <unknown> disconnected due to protocol error.
+1736352920: New connection from 192.168.65.1:61667 on port 1883.
+1736352920: Client <unknown> disconnected due to protocol error.
+1736352945: New connection from 192.168.65.1:61668 on port 1883.
+1736352945: Client <unknown> disconnected due to protocol error.
+1736352945: New connection from 192.168.65.1:61669 on port 1883.
+1736352945: Client <unknown> disconnected due to protocol error.
+1736352945: New connection from 192.168.65.1:61670 on port 1883.
+1736352945: Client <unknown> disconnected due to protocol error.
+1736352945: New connection from 192.168.65.1:61671 on port 1883.
+1736352945: Client <unknown> disconnected due to protocol error.
+1736353129: mosquitto version 2.0.20 terminating
+1736353129: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736353130: mosquitto version 2.0.20 starting
+1736353130: Config loaded from /mosquitto/config/mosquitto.conf.
+1736353130: Opening ipv4 listen socket on port 1883.
+1736353130: Opening ipv6 listen socket on port 1883.
+1736353130: mosquitto version 2.0.20 running
+1736353134: mosquitto version 2.0.20 terminating
+1736353134: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736353134: mosquitto version 2.0.20 starting
+1736353134: Config loaded from /mosquitto/config/mosquitto.conf.
+1736353134: Opening ipv4 listen socket on port 1883.
+1736353134: Opening ipv6 listen socket on port 1883.
+1736353134: mosquitto version 2.0.20 running
+1736353156: New connection from 192.168.65.1:61677 on port 1883.
+1736353156: Client <unknown> disconnected due to protocol error.
+1736353156: New connection from 192.168.65.1:61678 on port 1883.
+1736353156: Client <unknown> disconnected due to protocol error.
+1736353156: New connection from 192.168.65.1:61679 on port 1883.
+1736353156: Client <unknown> disconnected due to protocol error.
+1736353156: New connection from 192.168.65.1:61680 on port 1883.
+1736353156: Client <unknown> disconnected due to protocol error.
+1736353157: New connection from 192.168.65.1:61681 on port 1883.
+1736353157: Client <unknown> disconnected due to protocol error.
+1736353157: New connection from 192.168.65.1:61682 on port 1883.
+1736353157: Client <unknown> disconnected due to protocol error.
+1736353157: New connection from 192.168.65.1:61683 on port 1883.
+1736353157: Client <unknown> disconnected due to protocol error.
+1736353157: New connection from 192.168.65.1:61684 on port 1883.
+1736353157: Client <unknown> disconnected due to protocol error.
+1736353175: New connection from 192.168.65.1:61685 on port 1883.
+1736353175: Client <unknown> disconnected due to protocol error.
+1736353175: New connection from 192.168.65.1:61686 on port 1883.
+1736353175: Client <unknown> disconnected due to protocol error.
+1736353175: New connection from 192.168.65.1:61687 on port 1883.
+1736353175: Client <unknown> disconnected due to protocol error.
+1736353175: New connection from 192.168.65.1:61688 on port 1883.
+1736353175: Client <unknown> disconnected due to protocol error.
+1736353207: New connection from 192.168.65.1:61690 on port 1883.
+1736353207: Client <unknown> disconnected due to protocol error.
+1736353207: New connection from 192.168.65.1:61691 on port 1883.
+1736353207: Client <unknown> disconnected due to protocol error.
+1736353207: New connection from 192.168.65.1:61692 on port 1883.
+1736353207: Client <unknown> disconnected due to protocol error.
+1736353207: New connection from 192.168.65.1:61693 on port 1883.
+1736353207: Client <unknown> disconnected due to protocol error.
+1736353267: New connection from 192.168.65.1:61694 on port 1883.
+1736353267: Client <unknown> disconnected due to protocol error.
+1736353267: New connection from 192.168.65.1:61695 on port 1883.
+1736353267: Client <unknown> disconnected due to protocol error.
+1736353267: New connection from 192.168.65.1:61696 on port 1883.
+1736353267: Client <unknown> disconnected due to protocol error.
+1736353267: New connection from 192.168.65.1:61697 on port 1883.
+1736353267: Client <unknown> disconnected due to protocol error.
+1736353279: mosquitto version 2.0.20 terminating
+1736353279: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736353279: mosquitto version 2.0.20 starting
+1736353279: Config loaded from /mosquitto/config/mosquitto.conf.
+1736353279: Opening ipv4 listen socket on port 1883.
+1736353279: Opening ipv6 listen socket on port 1883.
+1736353279: mosquitto version 2.0.20 running
+1736353283: New connection from 192.168.65.1:36184 on port 1883.
+1736353283: Client <unknown> disconnected due to protocol error.
+1736353283: New connection from 192.168.65.1:36185 on port 1883.
+1736353283: Client <unknown> disconnected due to protocol error.
+1736353283: New connection from 192.168.65.1:36186 on port 1883.
+1736353283: Client <unknown> disconnected due to protocol error.
+1736353283: New connection from 192.168.65.1:36187 on port 1883.
+1736353283: Client <unknown> disconnected due to protocol error.
+1736353371: mosquitto version 2.0.20 terminating
+1736353371: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736353372: mosquitto version 2.0.20 starting
+1736353372: Config loaded from /mosquitto/config/mosquitto.conf.
+1736353372: Opening ipv4 listen socket on port 1883.
+1736353372: Opening ipv6 listen socket on port 1883.
+1736353372: mosquitto version 2.0.20 running
+1736353411: New connection from 172.18.0.4:55026 on port 1883.
+1736353411: New client connected from 172.18.0.4:55026 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736355108: New connection from 172.18.0.3:52360 on port 1883.
+1736355108: New client connected from 172.18.0.3:52360 as nette-mqtt-client (p1, c0, k10).
+1736355173: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736355404: Client nette-mqtt-client closed its connection.
+1736355417: New connection from 172.18.0.3:37838 on port 1883.
+1736355417: New client connected from 172.18.0.3:37838 as nette-mqtt-client (p1, c0, k10).
+1736357133: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736357133: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736357134: New connection from 172.18.0.4:60582 on port 1883.
+1736357134: New client connected from 172.18.0.4:60582 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736357404: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736357404: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736357406: New connection from 172.18.0.4:49148 on port 1883.
+1736357406: New client connected from 172.18.0.4:49148 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736357415: New connection from 172.18.0.3:39168 on port 1883.
+1736357415: New client connected from 172.18.0.3:39168 as nette-mqtt-client (p1, c0, k10).
+1736357683: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736357683: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736357684: New connection from 172.18.0.3:38836 on port 1883.
+1736357684: New client connected from 172.18.0.3:38836 as nette-mqtt-client (p1, c0, k10).
+1736357684: New connection from 172.18.0.4:36114 on port 1883.
+1736357684: New client connected from 172.18.0.4:36114 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736358934: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736360735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736362536: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736364337: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736366138: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736367555: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736367566: New connection from 172.18.0.3:48706 on port 1883.
+1736367566: New client connected from 172.18.0.3:48706 as nette-mqtt-client (p1, c0, k10).
+1736367734: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736367745: New connection from 172.18.0.3:40168 on port 1883.
+1736367745: New client connected from 172.18.0.3:40168 as nette-mqtt-client (p1, c0, k10).
+1736367939: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736368058: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736368069: New connection from 172.18.0.3:35724 on port 1883.
+1736368069: New client connected from 172.18.0.3:35724 as nette-mqtt-client (p1, c0, k10).
+1736368202: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736368202: New connection from 172.18.0.3:52578 on port 1883.
+1736368202: New client connected from 172.18.0.3:52578 as nette-mqtt-client (p1, c0, k10).
+1736368423: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736368434: New connection from 172.18.0.3:53562 on port 1883.
+1736368434: New client connected from 172.18.0.3:53562 as nette-mqtt-client (p1, c0, k10).
+1736368447: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736368448: New connection from 172.18.0.4:41312 on port 1883.
+1736368448: New client connected from 172.18.0.4:41312 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736368486: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736368497: New connection from 172.18.0.3:34868 on port 1883.
+1736368497: New client connected from 172.18.0.3:34868 as nette-mqtt-client (p1, c0, k10).
+1736368540: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736368541: New connection from 172.18.0.4:41994 on port 1883.
+1736368541: New client connected from 172.18.0.4:41994 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736369029: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736369030: New connection from 172.18.0.3:51808 on port 1883.
+1736369030: New client connected from 172.18.0.3:51808 as nette-mqtt-client (p1, c0, k10).
+1736369522: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736369533: New connection from 172.18.0.3:43774 on port 1883.
+1736369533: New client connected from 172.18.0.3:43774 as nette-mqtt-client (p1, c0, k10).
+1736369740: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736369886: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736369887: New connection from 172.18.0.3:59510 on port 1883.
+1736369887: New client connected from 172.18.0.3:59510 as nette-mqtt-client (p1, c0, k10).
+1736370016: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736370027: New connection from 172.18.0.3:48480 on port 1883.
+1736370027: New client connected from 172.18.0.3:48480 as nette-mqtt-client (p1, c0, k10).
+1736370064: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736370065: New connection from 172.18.0.4:36954 on port 1883.
+1736370065: New client connected from 172.18.0.4:36954 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736370143: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736370144: New connection from 172.18.0.3:36024 on port 1883.
+1736370144: New client connected from 172.18.0.3:36024 as nette-mqtt-client (p1, c0, k10).
+1736370389: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736370400: New connection from 172.18.0.3:55826 on port 1883.
+1736370400: New client connected from 172.18.0.3:55826 as nette-mqtt-client (p1, c0, k10).
+1736370829: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736370840: New connection from 172.18.0.3:48930 on port 1883.
+1736370840: New client connected from 172.18.0.3:48930 as nette-mqtt-client (p1, c0, k10).
+1736371327: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736371328: New connection from 172.18.0.4:46140 on port 1883.
+1736371328: New client connected from 172.18.0.4:46140 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736371506: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736371517: New connection from 172.18.0.3:35906 on port 1883.
+1736371517: New client connected from 172.18.0.3:35906 as nette-mqtt-client (p1, c0, k10).
+1736371541: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736371797: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736371797: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736371798: New connection from 172.18.0.4:57590 on port 1883.
+1736371798: New client connected from 172.18.0.4:57590 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736371808: New connection from 172.18.0.3:46028 on port 1883.
+1736371808: New client connected from 172.18.0.3:46028 as nette-mqtt-client (p1, c0, k10).
+1736372836: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736372836: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736372837: New connection from 172.18.0.4:55014 on port 1883.
+1736372837: New client connected from 172.18.0.4:55014 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736372846: New connection from 172.18.0.3:40510 on port 1883.
+1736372846: New client connected from 172.18.0.3:40510 as nette-mqtt-client (p1, c0, k10).
+1736373074: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736373074: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736373075: New connection from 172.18.0.4:52260 on port 1883.
+1736373075: New client connected from 172.18.0.4:52260 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736373084: New connection from 172.18.0.3:55550 on port 1883.
+1736373084: New client connected from 172.18.0.3:55550 as nette-mqtt-client (p1, c0, k10).
+1736373173: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736373174: New connection from 172.18.0.4:33306 on port 1883.
+1736373174: New client connected from 172.18.0.4:33306 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736373342: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736373922: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736373933: New connection from 172.18.0.3:42712 on port 1883.
+1736373933: New client connected from 172.18.0.3:42712 as nette-mqtt-client (p1, c0, k10).
+1736374187: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736374188: New connection from 172.18.0.4:33662 on port 1883.
+1736374188: New client connected from 172.18.0.4:33662 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736374305: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736374306: New connection from 172.18.0.3:53732 on port 1883.
+1736374306: New client connected from 172.18.0.3:53732 as nette-mqtt-client (p1, c0, k10).
+1736374418: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736374429: New connection from 172.18.0.3:41782 on port 1883.
+1736374429: New client connected from 172.18.0.3:41782 as nette-mqtt-client (p1, c0, k10).
+1736374430: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736374431: New connection from 172.18.0.4:33400 on port 1883.
+1736374431: New client connected from 172.18.0.4:33400 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736374713: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736374724: New connection from 172.18.0.3:54084 on port 1883.
+1736374724: New client connected from 172.18.0.3:54084 as nette-mqtt-client (p1, c0, k10).
+1736374832: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736374843: New connection from 172.18.0.3:57070 on port 1883.
+1736374843: New client connected from 172.18.0.3:57070 as nette-mqtt-client (p1, c0, k10).
+1736375952: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736375952: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736375952: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736375953: New connection from 172.18.0.3:59230 on port 1883.
+1736375953: New client connected from 172.18.0.3:59230 as nette-mqtt-client (p1, c0, k10).
+1736375953: New connection from 172.18.0.4:44450 on port 1883.
+1736375953: New client connected from 172.18.0.4:44450 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736376973: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736376973: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736376974: New connection from 172.18.0.4:49636 on port 1883.
+1736376974: New client connected from 172.18.0.4:49636 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736376984: New connection from 172.18.0.3:41798 on port 1883.
+1736376984: New client connected from 172.18.0.3:41798 as nette-mqtt-client (p1, c0, k10).
+1736377944: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736377944: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736377944: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736377945: New connection from 172.18.0.3:45524 on port 1883.
+1736377945: New client connected from 172.18.0.3:45524 as nette-mqtt-client (p1, c0, k10).
+1736377945: New connection from 172.18.0.4:56250 on port 1883.
+1736377945: New client connected from 172.18.0.4:56250 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736378958: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736378959: New connection from 172.18.0.4:60456 on port 1883.
+1736378959: New client connected from 172.18.0.4:60456 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736379958: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736379958: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736379958: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736379959: New connection from 172.18.0.4:40604 on port 1883.
+1736379959: New client connected from 172.18.0.4:40604 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736379969: New connection from 172.18.0.3:36984 on port 1883.
+1736379969: New client connected from 172.18.0.3:36984 as nette-mqtt-client (p1, c0, k10).
+1736380923: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736380923: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736380924: New connection from 172.18.0.4:60820 on port 1883.
+1736380924: New client connected from 172.18.0.4:60820 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736380933: New connection from 172.18.0.3:44722 on port 1883.
+1736380933: New client connected from 172.18.0.3:44722 as nette-mqtt-client (p1, c0, k10).
+1736381698: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736381698: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736381699: New connection from 172.18.0.3:36520 on port 1883.
+1736381699: New client connected from 172.18.0.3:36520 as nette-mqtt-client (p1, c0, k10).
+1736381699: New connection from 172.18.0.4:51732 on port 1883.
+1736381699: New client connected from 172.18.0.4:51732 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736382658: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736382658: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736382658: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736382658: New connection from 172.18.0.3:48118 on port 1883.
+1736382658: New client connected from 172.18.0.3:48118 as nette-mqtt-client (p1, c0, k10).
+1736382659: New connection from 172.18.0.4:49398 on port 1883.
+1736382659: New client connected from 172.18.0.4:49398 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736383198: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736383199: New connection from 172.18.0.4:42342 on port 1883.
+1736383199: New client connected from 172.18.0.4:42342 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736384227: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736384227: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736384228: New connection from 172.18.0.4:36238 on port 1883.
+1736384228: New client connected from 172.18.0.4:36238 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736384238: New connection from 172.18.0.3:57630 on port 1883.
+1736384238: New client connected from 172.18.0.3:57630 as nette-mqtt-client (p1, c0, k10).
+1736385330: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736385330: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736385331: New connection from 172.18.0.4:44436 on port 1883.
+1736385331: New client connected from 172.18.0.4:44436 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736386360: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736386361: New connection from 172.18.0.4:53456 on port 1883.
+1736386361: New client connected from 172.18.0.4:53456 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736387356: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736387356: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736387357: New connection from 172.18.0.4:43168 on port 1883.
+1736387357: New client connected from 172.18.0.4:43168 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736388457: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736388457: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736388458: New connection from 172.18.0.4:37536 on port 1883.
+1736388458: New client connected from 172.18.0.4:37536 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736388467: New connection from 172.18.0.3:33274 on port 1883.
+1736388467: New client connected from 172.18.0.3:33274 as nette-mqtt-client (p1, c0, k10).
+1736389470: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736389470: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736389471: New connection from 172.18.0.4:37906 on port 1883.
+1736389471: New client connected from 172.18.0.4:37906 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736422958: mosquitto version 2.0.20 starting
+1736422958: Config loaded from /mosquitto/config/mosquitto.conf.
+1736422958: Opening ipv4 listen socket on port 1883.
+1736422958: Opening ipv6 listen socket on port 1883.
+1736422958: mosquitto version 2.0.20 running
+1736422973: New connection from 172.18.0.5:37244 on port 1883.
+1736422973: New client connected from 172.18.0.5:37244 as nette-mqtt-client (p1, c0, k10).
+1736423004: New connection from 172.18.0.3:47976 on port 1883.
+1736423004: New client connected from 172.18.0.3:47976 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736424759: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736425131: mosquitto version 2.0.20 terminating
+1736425131: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736425132: mosquitto version 2.0.20 starting
+1736425132: Config loaded from /mosquitto/config/mosquitto.conf.
+1736425132: Opening ipv4 listen socket on port 1883.
+1736425132: Opening ipv6 listen socket on port 1883.
+1736425132: mosquitto version 2.0.20 running
+1736425132: New connection from 172.18.0.3:51678 on port 1883.
+1736425132: New client connected from 172.18.0.3:51678 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736425137: mosquitto version 2.0.20 terminating
+1736425137: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736425138: mosquitto version 2.0.20 starting
+1736425138: Config loaded from /mosquitto/config/mosquitto.conf.
+1736425138: Opening ipv4 listen socket on port 1883.
+1736425138: Opening ipv6 listen socket on port 1883.
+1736425138: mosquitto version 2.0.20 running
+1736425138: New connection from 172.18.0.3:59692 on port 1883.
+1736425138: New client connected from 172.18.0.3:59692 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736425141: Client mqtt-explorer-50d4d298 closed its connection.
+1736425142: New connection from 172.18.0.5:48302 on port 1883.
+1736425142: New client connected from 172.18.0.5:48302 as nette-mqtt-client (p1, c0, k10).
+1736425143: mosquitto version 2.0.20 terminating
+1736425143: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736425162: mosquitto version 2.0.20 starting
+1736425162: Config loaded from /mosquitto/config/mosquitto.conf.
+1736425162: Opening ipv4 listen socket on port 1883.
+1736425162: Opening ipv6 listen socket on port 1883.
+1736425162: mosquitto version 2.0.20 running
+1736425163: New connection from 172.18.0.4:51870 on port 1883.
+1736425163: New client connected from 172.18.0.4:51870 as nette-mqtt-client (p1, c0, k10).
+1736425304: New connection from 172.18.0.5:47942 on port 1883.
+1736425304: New client connected from 172.18.0.5:47942 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736426076: Client nette-mqtt-client closed its connection.
+1736426077: New connection from 172.18.0.4:48668 on port 1883.
+1736426077: New client connected from 172.18.0.4:48668 as nette-mqtt-client (p1, c0, k10).
+1736426219: Client nette-mqtt-client closed its connection.
+1736426299: mosquitto version 2.0.20 terminating
+1736426299: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736426765: mosquitto version 2.0.20 starting
+1736426765: Config loaded from /mosquitto/config/mosquitto.conf.
+1736426765: Opening ipv4 listen socket on port 1883.
+1736426765: Opening ipv6 listen socket on port 1883.
+1736426765: mosquitto version 2.0.20 running
+1736426765: New connection from 172.18.0.3:57976 on port 1883.
+1736426765: New client connected from 172.18.0.3:57976 as nette-mqtt-client (p1, c0, k10).
+1736426891: New connection from 172.18.0.5:42554 on port 1883.
+1736426891: New client connected from 172.18.0.5:42554 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736427038: mosquitto version 2.0.20 starting
+1736427038: Config loaded from /mosquitto/config/mosquitto.conf.
+1736427038: Opening ipv4 listen socket on port 1883.
+1736427038: Opening ipv6 listen socket on port 1883.
+1736427038: mosquitto version 2.0.20 running
+1736427038: New connection from 172.18.0.5:52500 on port 1883.
+1736427038: New client connected from 172.18.0.5:52500 as nette-mqtt-client (p1, c0, k10).
+1736427049: New connection from 172.18.0.4:54562 on port 1883.
+1736427049: New client connected from 172.18.0.4:54562 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736428240: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736428240: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736428241: New connection from 172.18.0.5:50622 on port 1883.
+1736428241: New client connected from 172.18.0.5:50622 as nette-mqtt-client (p1, c0, k10).
+1736428241: New connection from 172.18.0.4:51810 on port 1883.
+1736428241: New client connected from 172.18.0.4:51810 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736429249: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736429249: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736429250: New connection from 172.18.0.4:38632 on port 1883.
+1736429250: New client connected from 172.18.0.4:38632 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736429869: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736429869: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736429870: New connection from 172.18.0.5:47152 on port 1883.
+1736429870: New client connected from 172.18.0.5:47152 as nette-mqtt-client (p1, c0, k10).
+1736429870: New connection from 172.18.0.4:54210 on port 1883.
+1736429870: New client connected from 172.18.0.4:54210 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736430928: Client nette-mqtt-client has exceeded timeout, disconnecting.
+1736430928: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736430929: New connection from 172.18.0.5:60544 on port 1883.
+1736430929: New client connected from 172.18.0.5:60544 as nette-mqtt-client (p1, c0, k10).
+1736430929: New connection from 172.18.0.4:58522 on port 1883.
+1736430929: New client connected from 172.18.0.4:58522 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736431050: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736431597: mosquitto version 2.0.20 terminating
+1736431597: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736431613: mosquitto version 2.0.20 starting
+1736431613: Config loaded from /mosquitto/config/mosquitto.conf.
+1736431613: Opening ipv4 listen socket on port 1883.
+1736431613: Opening ipv6 listen socket on port 1883.
+1736431613: mosquitto version 2.0.20 running
+1736431613: New connection from 172.18.0.5:43768 on port 1883.
+1736431613: New client connected from 172.18.0.5:43768 as nette-mqtt-client (p1, c0, k10).
+1736431636: New connection from 172.18.0.3:40914 on port 1883.
+1736431636: New client connected from 172.18.0.3:40914 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736431694: mosquitto version 2.0.20 terminating
+1736431694: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736431709: mosquitto version 2.0.20 starting
+1736431709: Config loaded from /mosquitto/config/mosquitto.conf.
+1736431709: Opening ipv4 listen socket on port 1883.
+1736431709: Opening ipv6 listen socket on port 1883.
+1736431709: mosquitto version 2.0.20 running
+1736431709: New connection from 172.18.0.4:40398 on port 1883.
+1736431709: New client connected from 172.18.0.4:40398 as nette-mqtt-client (p1, c0, k10).
+1736431722: New connection from 172.18.0.2:58748 on port 1883.
+1736431722: New client connected from 172.18.0.2:58748 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736432233: mosquitto version 2.0.20 terminating
+1736432233: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736432459: mosquitto version 2.0.20 starting
+1736432459: Config loaded from /mosquitto/config/mosquitto.conf.
+1736432459: Opening ipv4 listen socket on port 1883.
+1736432459: Opening ipv6 listen socket on port 1883.
+1736432459: mosquitto version 2.0.20 running
+1736432484: New connection from 172.18.0.3:50756 on port 1883.
+1736432484: New client connected from 172.18.0.3:50756 as nette-mqtt-client (p1, c0, k10).
+1736432486: Client nette-mqtt-client closed its connection.
+1736432489: New connection from 172.18.0.3:35450 on port 1883.
+1736432489: New client connected from 172.18.0.3:35450 as nette-mqtt-client (p1, c0, k10).
+1736432850: mosquitto version 2.0.20 terminating
+1736432850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736433058: mosquitto version 2.0.20 starting
+1736433058: Config loaded from /mosquitto/config/mosquitto.conf.
+1736433058: Opening ipv4 listen socket on port 1883.
+1736433058: Opening ipv6 listen socket on port 1883.
+1736433058: mosquitto version 2.0.20 running
+1736434859: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736436458: mosquitto version 2.0.20 terminating
+1736436458: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736436474: mosquitto version 2.0.20 starting
+1736436474: Config loaded from /mosquitto/config/mosquitto.conf.
+1736436474: Opening ipv4 listen socket on port 1883.
+1736436474: Opening ipv6 listen socket on port 1883.
+1736436474: mosquitto version 2.0.20 running
+1736438275: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736438866: New connection from 172.18.0.4:55178 on port 1883.
+1736438866: New client connected from 172.18.0.4:55178 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736440076: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736440248: mosquitto version 2.0.20 terminating
+1736440248: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736440267: mosquitto version 2.0.20 starting
+1736440267: Config loaded from /mosquitto/config/mosquitto.conf.
+1736440267: Opening ipv4 listen socket on port 1883.
+1736440267: Opening ipv6 listen socket on port 1883.
+1736440267: mosquitto version 2.0.20 running
+1736440336: mosquitto version 2.0.20 terminating
+1736440336: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736440358: mosquitto version 2.0.20 starting
+1736440358: Config loaded from /mosquitto/config/mosquitto.conf.
+1736440358: Opening ipv4 listen socket on port 1883.
+1736440358: Opening ipv6 listen socket on port 1883.
+1736440358: mosquitto version 2.0.20 running
+1736440750: New connection from 172.18.0.4:39270 on port 1883.
+1736440750: New client connected from 172.18.0.4:39270 as nette-mqtt-client (p1, c0, k10).
+1736440761: Client nette-mqtt-client closed its connection.
+1736441387: New connection from 172.18.0.5:52022 on port 1883.
+1736441387: New client connected from 172.18.0.5:52022 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736441427: Client mqtt-explorer-50d4d298 disconnected.
+1736441427: New connection from 172.18.0.5:35256 on port 1883.
+1736441427: New client connected from 172.18.0.5:35256 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736442159: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736442923: New connection from 192.168.65.1:17688 on port 1883.
+1736442923: Client <unknown> disconnected due to protocol error.
+1736442923: New connection from 192.168.65.1:17689 on port 1883.
+1736442923: Client <unknown> disconnected due to protocol error.
+1736442925: New connection from 192.168.65.1:17690 on port 1883.
+1736442925: Client <unknown> disconnected due to protocol error.
+1736442927: New connection from 192.168.65.1:17691 on port 1883.
+1736442927: Client <unknown> disconnected due to protocol error.
+1736442929: New connection from 192.168.65.1:17692 on port 1883.
+1736442929: Client <unknown> disconnected due to protocol error.
+1736442931: New connection from 192.168.65.1:17693 on port 1883.
+1736442931: Client <unknown> disconnected due to protocol error.
+1736442933: New connection from 192.168.65.1:17694 on port 1883.
+1736442933: Client <unknown> disconnected due to protocol error.
+1736442935: New connection from 192.168.65.1:17695 on port 1883.
+1736442935: Client <unknown> disconnected due to protocol error.
+1736442936: New connection from 192.168.65.1:17696 on port 1883.
+1736442936: Client <unknown> disconnected due to protocol error.
+1736442937: New connection from 192.168.65.1:17697 on port 1883.
+1736442937: Client <unknown> disconnected due to protocol error.
+1736442938: New connection from 192.168.65.1:17698 on port 1883.
+1736442938: Client <unknown> disconnected due to protocol error.
+1736442940: New connection from 192.168.65.1:17699 on port 1883.
+1736442940: Client <unknown> disconnected due to protocol error.
+1736442942: New connection from 192.168.65.1:17700 on port 1883.
+1736442942: Client <unknown> disconnected due to protocol error.
+1736442944: New connection from 192.168.65.1:17701 on port 1883.
+1736442944: Client <unknown> disconnected due to protocol error.
+1736442946: New connection from 192.168.65.1:17702 on port 1883.
+1736442946: Client <unknown> disconnected due to protocol error.
+1736442948: New connection from 192.168.65.1:17703 on port 1883.
+1736442948: Client <unknown> disconnected due to protocol error.
+1736442950: New connection from 192.168.65.1:17704 on port 1883.
+1736442950: Client <unknown> disconnected due to protocol error.
+1736442952: New connection from 192.168.65.1:17705 on port 1883.
+1736442952: Client <unknown> disconnected due to protocol error.
+1736442954: New connection from 192.168.65.1:17706 on port 1883.
+1736442954: Client <unknown> disconnected due to protocol error.
+1736442955: New connection from 192.168.65.1:17707 on port 1883.
+1736442955: Client <unknown> disconnected due to protocol error.
+1736442956: New connection from 192.168.65.1:17708 on port 1883.
+1736442956: Client <unknown> disconnected due to protocol error.
+1736442958: New connection from 192.168.65.1:17709 on port 1883.
+1736442958: Client <unknown> disconnected due to protocol error.
+1736442959: New connection from 192.168.65.1:17710 on port 1883.
+1736442959: Client <unknown> disconnected due to protocol error.
+1736442961: New connection from 192.168.65.1:17711 on port 1883.
+1736442961: Client <unknown> disconnected due to protocol error.
+1736442963: New connection from 192.168.65.1:17712 on port 1883.
+1736442963: Client <unknown> disconnected due to protocol error.
+1736442965: New connection from 192.168.65.1:17713 on port 1883.
+1736442965: Client <unknown> disconnected due to protocol error.
+1736442967: New connection from 192.168.65.1:17714 on port 1883.
+1736442967: Client <unknown> disconnected due to protocol error.
+1736442969: New connection from 192.168.65.1:17715 on port 1883.
+1736442969: Client <unknown> disconnected due to protocol error.
+1736442973: New connection from 192.168.65.1:17716 on port 1883.
+1736442973: Client <unknown> disconnected due to protocol error.
+1736442976: New connection from 192.168.65.1:17717 on port 1883.
+1736442976: Client <unknown> disconnected due to protocol error.
+1736442979: New connection from 192.168.65.1:17718 on port 1883.
+1736442979: Client <unknown> disconnected due to protocol error.
+1736442985: New connection from 192.168.65.1:17719 on port 1883.
+1736442985: Client <unknown> disconnected due to protocol error.
+1736442991: New connection from 192.168.65.1:17720 on port 1883.
+1736442991: Client <unknown> disconnected due to protocol error.
+1736442995: New connection from 192.168.65.1:17721 on port 1883.
+1736442995: Client <unknown> disconnected due to protocol error.
+1736443001: New connection from 192.168.65.1:17722 on port 1883.
+1736443001: Client <unknown> disconnected due to protocol error.
+1736443007: New connection from 192.168.65.1:17723 on port 1883.
+1736443007: Client <unknown> disconnected due to protocol error.
+1736443011: New connection from 192.168.65.1:17724 on port 1883.
+1736443011: Client <unknown> disconnected due to protocol error.
+1736443015: New connection from 192.168.65.1:17725 on port 1883.
+1736443015: Client <unknown> disconnected due to protocol error.
+1736443018: New connection from 192.168.65.1:17726 on port 1883.
+1736443018: Client <unknown> disconnected due to protocol error.
+1736443024: New connection from 192.168.65.1:17727 on port 1883.
+1736443024: Client <unknown> disconnected due to protocol error.
+1736443029: New connection from 192.168.65.1:17728 on port 1883.
+1736443029: Client <unknown> disconnected due to protocol error.
+1736443033: New connection from 192.168.65.1:17729 on port 1883.
+1736443033: Client <unknown> disconnected due to protocol error.
+1736443038: New connection from 192.168.65.1:17730 on port 1883.
+1736443038: Client <unknown> disconnected due to protocol error.
+1736443043: New connection from 192.168.65.1:17731 on port 1883.
+1736443043: Client <unknown> disconnected due to protocol error.
+1736443046: New connection from 192.168.65.1:17732 on port 1883.
+1736443046: Client <unknown> disconnected due to protocol error.
+1736443051: New connection from 192.168.65.1:17733 on port 1883.
+1736443051: Client <unknown> disconnected due to protocol error.
+1736443055: New connection from 192.168.65.1:17734 on port 1883.
+1736443055: Client <unknown> disconnected due to protocol error.
+1736443059: New connection from 192.168.65.1:17735 on port 1883.
+1736443059: Client <unknown> disconnected due to protocol error.
+1736443066: New connection from 192.168.65.1:17736 on port 1883.
+1736443066: Client <unknown> disconnected due to protocol error.
+1736443069: New connection from 192.168.65.1:17737 on port 1883.
+1736443069: Client <unknown> disconnected due to protocol error.
+1736443075: New connection from 192.168.65.1:17738 on port 1883.
+1736443075: Client <unknown> disconnected due to protocol error.
+1736443081: New connection from 192.168.65.1:17739 on port 1883.
+1736443081: Client <unknown> disconnected due to protocol error.
+1736443086: New connection from 192.168.65.1:17740 on port 1883.
+1736443086: Client <unknown> disconnected due to protocol error.
+1736443089: New connection from 192.168.65.1:17741 on port 1883.
+1736443089: Client <unknown> disconnected due to protocol error.
+1736443094: New connection from 192.168.65.1:17742 on port 1883.
+1736443094: Client <unknown> disconnected due to protocol error.
+1736443097: New connection from 192.168.65.1:17743 on port 1883.
+1736443097: Client <unknown> disconnected due to protocol error.
+1736443100: New connection from 192.168.65.1:17744 on port 1883.
+1736443100: Client <unknown> disconnected due to protocol error.
+1736443103: New connection from 192.168.65.1:17745 on port 1883.
+1736443103: Client <unknown> disconnected due to protocol error.
+1736443103: New connection from 192.168.65.1:17746 on port 1883.
+1736443103: Client <unknown> disconnected due to protocol error.
+1736443108: New connection from 192.168.65.1:17747 on port 1883.
+1736443108: Client <unknown> disconnected due to protocol error.
+1736443113: New connection from 192.168.65.1:17748 on port 1883.
+1736443113: Client <unknown> disconnected due to protocol error.
+1736443115: New connection from 192.168.65.1:17749 on port 1883.
+1736443115: Client <unknown> disconnected due to protocol error.
+1736443119: New connection from 192.168.65.1:17750 on port 1883.
+1736443119: Client <unknown> disconnected due to protocol error.
+1736443123: New connection from 192.168.65.1:17751 on port 1883.
+1736443123: Client <unknown> disconnected due to protocol error.
+1736443123: New connection from 192.168.65.1:17752 on port 1883.
+1736443123: Client <unknown> disconnected due to protocol error.
+1736443125: New connection from 192.168.65.1:17753 on port 1883.
+1736443125: Client <unknown> disconnected due to protocol error.
+1736443126: New connection from 192.168.65.1:17754 on port 1883.
+1736443126: Client <unknown> disconnected due to protocol error.
+1736443127: New connection from 192.168.65.1:17755 on port 1883.
+1736443127: Client <unknown> disconnected due to protocol error.
+1736443128: New connection from 192.168.65.1:17756 on port 1883.
+1736443128: Client <unknown> disconnected due to protocol error.
+1736443129: New connection from 192.168.65.1:17757 on port 1883.
+1736443129: Client <unknown> disconnected due to protocol error.
+1736443130: New connection from 192.168.65.1:17758 on port 1883.
+1736443130: Client <unknown> disconnected due to protocol error.
+1736443132: New connection from 192.168.65.1:17759 on port 1883.
+1736443132: Client <unknown> disconnected due to protocol error.
+1736443134: New connection from 192.168.65.1:17760 on port 1883.
+1736443134: Client <unknown> disconnected due to protocol error.
+1736443136: New connection from 192.168.65.1:17761 on port 1883.
+1736443136: Client <unknown> disconnected due to protocol error.
+1736443138: New connection from 192.168.65.1:17762 on port 1883.
+1736443138: Client <unknown> disconnected due to protocol error.
+1736443140: New connection from 192.168.65.1:17763 on port 1883.
+1736443140: Client <unknown> disconnected due to protocol error.
+1736443142: New connection from 192.168.65.1:17764 on port 1883.
+1736443142: Client <unknown> disconnected due to protocol error.
+1736443144: New connection from 192.168.65.1:17765 on port 1883.
+1736443144: Client <unknown> disconnected due to protocol error.
+1736443146: New connection from 192.168.65.1:17766 on port 1883.
+1736443146: Client <unknown> disconnected due to protocol error.
+1736443148: New connection from 192.168.65.1:17767 on port 1883.
+1736443148: Client <unknown> disconnected due to protocol error.
+1736443150: New connection from 192.168.65.1:17768 on port 1883.
+1736443150: Client <unknown> disconnected due to protocol error.
+1736443152: New connection from 192.168.65.1:17769 on port 1883.
+1736443152: Client <unknown> disconnected due to protocol error.
+1736443153: New connection from 192.168.65.1:17770 on port 1883.
+1736443153: Client <unknown> disconnected due to protocol error.
+1736443155: New connection from 192.168.65.1:17771 on port 1883.
+1736443155: Client <unknown> disconnected due to protocol error.
+1736443156: New connection from 192.168.65.1:17772 on port 1883.
+1736443156: Client <unknown> disconnected due to protocol error.
+1736443157: New connection from 192.168.65.1:17773 on port 1883.
+1736443157: Client <unknown> disconnected due to protocol error.
+1736443158: New connection from 192.168.65.1:17774 on port 1883.
+1736443158: Client <unknown> disconnected due to protocol error.
+1736443160: New connection from 192.168.65.1:17775 on port 1883.
+1736443160: Client <unknown> disconnected due to protocol error.
+1736443161: New connection from 192.168.65.1:17776 on port 1883.
+1736443161: Client <unknown> disconnected due to protocol error.
+1736443163: New connection from 192.168.65.1:17777 on port 1883.
+1736443163: Client <unknown> disconnected due to protocol error.
+1736443165: New connection from 192.168.65.1:17778 on port 1883.
+1736443165: Client <unknown> disconnected due to protocol error.
+1736443167: New connection from 192.168.65.1:17779 on port 1883.
+1736443167: Client <unknown> disconnected due to protocol error.
+1736443170: New connection from 192.168.65.1:17780 on port 1883.
+1736443170: Client <unknown> disconnected due to protocol error.
+1736443176: New connection from 192.168.65.1:17781 on port 1883.
+1736443176: Client <unknown> disconnected due to protocol error.
+1736443181: New connection from 192.168.65.1:17782 on port 1883.
+1736443181: Client <unknown> disconnected due to protocol error.
+1736443187: New connection from 192.168.65.1:17783 on port 1883.
+1736443187: Client <unknown> disconnected due to protocol error.
+1736443190: New connection from 192.168.65.1:17784 on port 1883.
+1736443190: Client <unknown> disconnected due to protocol error.
+1736443193: New connection from 192.168.65.1:17785 on port 1883.
+1736443193: Client <unknown> disconnected due to protocol error.
+1736443196: New connection from 192.168.65.1:17786 on port 1883.
+1736443196: Client <unknown> disconnected due to protocol error.
+1736443199: New connection from 192.168.65.1:17787 on port 1883.
+1736443199: Client <unknown> disconnected due to protocol error.
+1736443204: New connection from 192.168.65.1:17788 on port 1883.
+1736443204: Client <unknown> disconnected due to protocol error.
+1736443208: New connection from 192.168.65.1:17789 on port 1883.
+1736443208: Client <unknown> disconnected due to protocol error.
+1736443212: New connection from 192.168.65.1:17790 on port 1883.
+1736443212: Client <unknown> disconnected due to protocol error.
+1736443214: New connection from 192.168.65.1:17791 on port 1883.
+1736443214: Client <unknown> disconnected due to protocol error.
+1736443219: New connection from 192.168.65.1:17792 on port 1883.
+1736443219: Client <unknown> disconnected due to protocol error.
+1736443225: New connection from 192.168.65.1:17793 on port 1883.
+1736443225: Client <unknown> disconnected due to protocol error.
+1736443230: New connection from 192.168.65.1:17794 on port 1883.
+1736443230: Client <unknown> disconnected due to protocol error.
+1736443235: New connection from 192.168.65.1:17795 on port 1883.
+1736443235: Client <unknown> disconnected due to protocol error.
+1736443241: New connection from 192.168.65.1:17796 on port 1883.
+1736443241: Client <unknown> disconnected due to protocol error.
+1736443245: New connection from 192.168.65.1:17797 on port 1883.
+1736443245: Client <unknown> disconnected due to protocol error.
+1736443248: New connection from 192.168.65.1:17798 on port 1883.
+1736443248: Client <unknown> disconnected due to protocol error.
+1736443251: New connection from 192.168.65.1:17799 on port 1883.
+1736443251: Client <unknown> disconnected due to protocol error.
+1736443257: New connection from 192.168.65.1:17800 on port 1883.
+1736443257: Client <unknown> disconnected due to protocol error.
+1736443262: New connection from 192.168.65.1:17801 on port 1883.
+1736443262: Client <unknown> disconnected due to protocol error.
+1736443266: New connection from 192.168.65.1:17802 on port 1883.
+1736443266: Client <unknown> disconnected due to protocol error.
+1736443269: New connection from 192.168.65.1:17803 on port 1883.
+1736443269: Client <unknown> disconnected due to protocol error.
+1736443273: New connection from 192.168.65.1:17804 on port 1883.
+1736443273: Client <unknown> disconnected due to protocol error.
+1736443275: New connection from 192.168.65.1:17805 on port 1883.
+1736443275: Client <unknown> disconnected due to protocol error.
+1736443278: New connection from 192.168.65.1:17806 on port 1883.
+1736443278: Client <unknown> disconnected due to protocol error.
+1736443282: New connection from 192.168.65.1:17807 on port 1883.
+1736443282: Client <unknown> disconnected due to protocol error.
+1736443288: New connection from 192.168.65.1:17808 on port 1883.
+1736443288: Client <unknown> disconnected due to protocol error.
+1736443290: New connection from 192.168.65.1:17809 on port 1883.
+1736443290: Client <unknown> disconnected due to protocol error.
+1736443294: New connection from 192.168.65.1:17810 on port 1883.
+1736443294: Client <unknown> disconnected due to protocol error.
+1736443301: New connection from 192.168.65.1:17811 on port 1883.
+1736443301: Client <unknown> disconnected due to protocol error.
+1736443305: New connection from 192.168.65.1:17812 on port 1883.
+1736443305: Client <unknown> disconnected due to protocol error.
+1736443310: New connection from 192.168.65.1:17813 on port 1883.
+1736443310: Client <unknown> disconnected due to protocol error.
+1736443316: New connection from 192.168.65.1:17814 on port 1883.
+1736443316: Client <unknown> disconnected due to protocol error.
+1736443322: New connection from 192.168.65.1:17815 on port 1883.
+1736443322: Client <unknown> disconnected due to protocol error.
+1736443325: New connection from 192.168.65.1:17816 on port 1883.
+1736443325: Client <unknown> disconnected due to protocol error.
+1736443326: New connection from 192.168.65.1:17817 on port 1883.
+1736443326: Client <unknown> disconnected due to protocol error.
+1736443332: New connection from 192.168.65.1:17818 on port 1883.
+1736443332: Client <unknown> disconnected due to protocol error.
+1736443335: New connection from 192.168.65.1:17819 on port 1883.
+1736443335: Client <unknown> disconnected due to protocol error.
+1736443340: New connection from 192.168.65.1:17820 on port 1883.
+1736443340: Client <unknown> disconnected due to protocol error.
+1736443343: New connection from 192.168.65.1:17821 on port 1883.
+1736443343: Client <unknown> disconnected due to protocol error.
+1736443346: New connection from 192.168.65.1:17822 on port 1883.
+1736443346: Client <unknown> disconnected due to protocol error.
+1736443351: New connection from 192.168.65.1:17823 on port 1883.
+1736443351: Client <unknown> disconnected due to protocol error.
+1736443476: New connection from 192.168.65.1:17824 on port 1883.
+1736443476: Client <unknown> disconnected due to protocol error.
+1736443479: New connection from 192.168.65.1:17825 on port 1883.
+1736443479: Client <unknown> disconnected due to protocol error.
+1736443480: New connection from 192.168.65.1:17826 on port 1883.
+1736443480: Client <unknown> disconnected due to protocol error.
+1736443483: New connection from 192.168.65.1:17827 on port 1883.
+1736443483: Client <unknown> disconnected due to protocol error.
+1736443485: New connection from 192.168.65.1:17828 on port 1883.
+1736443485: Client <unknown> disconnected due to protocol error.
+1736443489: New connection from 192.168.65.1:17829 on port 1883.
+1736443489: Client <unknown> disconnected due to protocol error.
+1736443495: New connection from 192.168.65.1:17830 on port 1883.
+1736443495: Client <unknown> disconnected due to protocol error.
+1736443498: New connection from 192.168.65.1:17831 on port 1883.
+1736443498: Client <unknown> disconnected due to protocol error.
+1736443501: New connection from 192.168.65.1:17832 on port 1883.
+1736443501: Client <unknown> disconnected due to protocol error.
+1736443506: New connection from 192.168.65.1:17833 on port 1883.
+1736443506: Client <unknown> disconnected due to protocol error.
+1736443511: New connection from 192.168.65.1:17834 on port 1883.
+1736443511: Client <unknown> disconnected due to protocol error.
+1736443515: New connection from 192.168.65.1:17835 on port 1883.
+1736443515: Client <unknown> disconnected due to protocol error.
+1736443519: New connection from 192.168.65.1:17836 on port 1883.
+1736443519: Client <unknown> disconnected due to protocol error.
+1736443914: mosquitto version 2.0.20 terminating
+1736443914: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736443930: mosquitto version 2.0.20 starting
+1736443930: Config loaded from /mosquitto/config/mosquitto.conf.
+1736443930: Opening ipv4 listen socket on port 1883.
+1736443930: Opening ipv6 listen socket on port 1883.
+1736443930: Opening websockets listen socket on port 9001.
+1736443930: mosquitto version 2.0.20 running
+1736443940: New client connected from ::ffff:192.168.65.1:30901 as mqttjs_3dedfb41 (p2, c1, k60).
+1736443942: New client connected from ::ffff:192.168.65.1:30902 as mqttjs_33ef2120 (p2, c1, k60).
+1736444032: Client mqttjs_3dedfb41 closed its connection.
+1736444161: mosquitto version 2.0.20 terminating
+1736444161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736444161: Client mqttjs_33ef2120 closed its connection.
+1736444213: mosquitto version 2.0.20 starting
+1736444213: Config loaded from /mosquitto/config/mosquitto.conf.
+1736444213: Opening ipv4 listen socket on port 1883.
+1736444213: Error: Address not available
+1736444305: mosquitto version 2.0.20 starting
+1736444305: Config loaded from /mosquitto/config/mosquitto.conf.
+1736444305: Opening ipv4 listen socket on port 1883.
+1736444305: Opening ipv6 listen socket on port 1883.
+1736444305: Opening websockets listen socket on port 9001.
+1736444305: mosquitto version 2.0.20 running
+1736444308: New client connected from ::ffff:192.168.65.1:30922 as mqttjs_33ef2120 (p2, c1, k60).
+1736444327: New connection from 172.18.0.5:57156 on port 1883.
+1736444327: New client connected from 172.18.0.5:57156 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444343: Client mqttjs_33ef2120 closed its connection.
+1736444347: New client connected from ::ffff:192.168.65.1:30931 as mqttjs_caacda3b (p2, c1, k60).
+1736444347: New client connected from ::ffff:192.168.65.1:30932 as mqttjs_e6c92464 (p2, c1, k60).
+1736444359: Client mqtt-explorer-50d4d298 disconnected.
+1736444386: New connection from 172.18.0.5:57758 on port 1883.
+1736444386: New client connected from 172.18.0.5:57758 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444390: Client mqtt-explorer-50d4d298 disconnected.
+1736444407: New connection from 172.18.0.5:59410 on port 1883.
+1736444407: New client connected from 172.18.0.5:59410 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444409: Client mqtt-explorer-50d4d298 disconnected.
+1736444419: New connection from 172.18.0.5:58474 on port 1883.
+1736444419: New client connected from 172.18.0.5:58474 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444435: Client mqtt-explorer-50d4d298 disconnected.
+1736444435: New connection from 172.18.0.5:41292 on port 1883.
+1736444435: New client connected from 172.18.0.5:41292 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444443: Client mqttjs_e6c92464 closed its connection.
+1736444456: Client mqtt-explorer-50d4d298 disconnected.
+1736444631: mosquitto version 2.0.20 terminating
+1736444631: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736444631: Client mqttjs_caacda3b closed its connection.
+1736444650: mosquitto version 2.0.20 starting
+1736444650: Config loaded from /mosquitto/config/mosquitto.conf.
+1736444650: Opening ipv4 listen socket on port 1883.
+1736444650: Opening ipv6 listen socket on port 1883.
+1736444650: mosquitto version 2.0.20 running
+1736444689: New connection from 172.18.0.2:42306 on port 1883.
+1736444689: New client connected from 172.18.0.2:42306 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444734: mosquitto version 2.0.20 terminating
+1736444734: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736444750: mosquitto version 2.0.20 starting
+1736444750: Config loaded from /mosquitto/config/mosquitto.conf.
+1736444750: Opening ipv4 listen socket on port 1883.
+1736444750: Opening ipv6 listen socket on port 1883.
+1736444750: Opening websockets listen socket on port 9001.
+1736444750: mosquitto version 2.0.20 running
+1736444755: New client connected from ::ffff:192.168.65.1:31002 as mqttjs_b4fe07b9 (p2, c1, k60).
+1736444764: New connection from 172.18.0.4:50716 on port 1883.
+1736444764: New client connected from 172.18.0.4:50716 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444780: Client mqtt-explorer-50d4d298 disconnected.
+1736444780: New connection from 172.18.0.4:54958 on port 1883.
+1736444780: New client connected from 172.18.0.4:54958 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736444803: Client mqttjs_b4fe07b9 closed its connection.
+1736444804: New client connected from ::ffff:192.168.65.1:31010 as mqttjs_7eee4c76 (p2, c1, k60).
+1736444805: New client connected from ::ffff:192.168.65.1:31011 as mqttjs_2d9f6de2 (p2, c1, k60).
+1736444900: Client mqttjs_7eee4c76 closed its connection.
+1736445942: Client mqttjs_2d9f6de2 closed its connection.
+1736445942: New connection from 192.168.65.1:18046 on port 1883.
+1736445942: Client <unknown> disconnected due to protocol error.
+1736445943: New connection from 192.168.65.1:18047 on port 1883.
+1736445943: Client <unknown> disconnected due to protocol error.
+1736445944: New connection from 192.168.65.1:18048 on port 1883.
+1736445944: Client <unknown> disconnected due to protocol error.
+1736445945: New connection from 192.168.65.1:18049 on port 1883.
+1736445945: Client <unknown> disconnected due to protocol error.
+1736445946: New connection from 192.168.65.1:18050 on port 1883.
+1736445946: Client <unknown> disconnected due to protocol error.
+1736445947: New connection from 192.168.65.1:18051 on port 1883.
+1736445947: Client <unknown> disconnected due to protocol error.
+1736445948: New connection from 192.168.65.1:18052 on port 1883.
+1736445948: Client <unknown> disconnected due to protocol error.
+1736445949: New connection from 192.168.65.1:18053 on port 1883.
+1736445949: Client <unknown> disconnected due to protocol error.
+1736445951: New connection from 192.168.65.1:18054 on port 1883.
+1736445951: Client <unknown> disconnected due to protocol error.
+1736445952: New connection from 192.168.65.1:18055 on port 1883.
+1736445952: Client <unknown> disconnected due to protocol error.
+1736445953: New connection from 192.168.65.1:18056 on port 1883.
+1736445953: Client <unknown> disconnected due to protocol error.
+1736445954: New connection from 192.168.65.1:18057 on port 1883.
+1736445954: Client <unknown> disconnected due to protocol error.
+1736445955: New connection from 192.168.65.1:18058 on port 1883.
+1736445955: Client <unknown> disconnected due to protocol error.
+1736445956: New connection from 192.168.65.1:18059 on port 1883.
+1736445956: Client <unknown> disconnected due to protocol error.
+1736445958: New connection from 192.168.65.1:18060 on port 1883.
+1736445958: Client <unknown> disconnected due to protocol error.
+1736445960: New connection from 192.168.65.1:18061 on port 1883.
+1736445960: Client <unknown> disconnected due to protocol error.
+1736445962: New connection from 192.168.65.1:18062 on port 1883.
+1736445962: Client <unknown> disconnected due to protocol error.
+1736445963: New connection from 192.168.65.1:18063 on port 1883.
+1736445963: Client <unknown> disconnected due to protocol error.
+1736445964: New connection from 192.168.65.1:18064 on port 1883.
+1736445964: Client <unknown> disconnected due to protocol error.
+1736445965: New connection from 192.168.65.1:18065 on port 1883.
+1736445965: Client <unknown> disconnected due to protocol error.
+1736445967: New connection from 192.168.65.1:18066 on port 1883.
+1736445967: Client <unknown> disconnected due to protocol error.
+1736445969: New connection from 192.168.65.1:18067 on port 1883.
+1736445969: Client <unknown> disconnected due to protocol error.
+1736445971: New connection from 192.168.65.1:18068 on port 1883.
+1736445971: Client <unknown> disconnected due to protocol error.
+1736445973: New connection from 192.168.65.1:18069 on port 1883.
+1736445973: Client <unknown> disconnected due to protocol error.
+1736445975: New connection from 192.168.65.1:18070 on port 1883.
+1736445975: Client <unknown> disconnected due to protocol error.
+1736445977: New connection from 192.168.65.1:18071 on port 1883.
+1736445977: Client <unknown> disconnected due to protocol error.
+1736445979: New connection from 192.168.65.1:18072 on port 1883.
+1736445979: Client <unknown> disconnected due to protocol error.
+1736445982: New connection from 192.168.65.1:18073 on port 1883.
+1736445982: Client <unknown> disconnected due to protocol error.
+1736445986: New connection from 192.168.65.1:18074 on port 1883.
+1736445986: Client <unknown> disconnected due to protocol error.
+1736445988: New connection from 192.168.65.1:18075 on port 1883.
+1736445988: Client <unknown> disconnected due to protocol error.
+1736445994: New connection from 192.168.65.1:18076 on port 1883.
+1736445994: Client <unknown> disconnected due to protocol error.
+1736445998: New connection from 192.168.65.1:18077 on port 1883.
+1736445998: Client <unknown> disconnected due to protocol error.
+1736446005: New connection from 192.168.65.1:18078 on port 1883.
+1736446005: Client <unknown> disconnected due to protocol error.
+1736446011: New connection from 192.168.65.1:18079 on port 1883.
+1736446011: Client <unknown> disconnected due to protocol error.
+1736446015: New connection from 192.168.65.1:18080 on port 1883.
+1736446015: Client <unknown> disconnected due to protocol error.
+1736446020: New connection from 192.168.65.1:18081 on port 1883.
+1736446020: Client <unknown> disconnected due to protocol error.
+1736446025: New connection from 192.168.65.1:18082 on port 1883.
+1736446025: Client <unknown> disconnected due to protocol error.
+1736446029: New connection from 192.168.65.1:18083 on port 1883.
+1736446029: Client <unknown> disconnected due to protocol error.
+1736446034: New connection from 192.168.65.1:18089 on port 1883.
+1736446034: Client <unknown> disconnected due to protocol error.
+1736446037: New connection from 192.168.65.1:18090 on port 1883.
+1736446037: Client <unknown> disconnected due to protocol error.
+1736446040: New connection from 192.168.65.1:18091 on port 1883.
+1736446040: Client <unknown> disconnected due to protocol error.
+1736446043: Client mqtt-explorer-50d4d298 disconnected.
+1736446043: New connection from 172.18.0.4:32830 on port 1883.
+1736446043: New client connected from 172.18.0.4:32830 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736446044: New connection from 192.168.65.1:18092 on port 1883.
+1736446044: Client <unknown> disconnected due to protocol error.
+1736446052: New client connected from ::ffff:192.168.65.1:31060 as mqttjs_4989b727 (p2, c1, k60).
+1736446052: New client connected from ::ffff:192.168.65.1:31061 as mqttjs_db7ed683 (p2, c1, k60).
+1736446148: Client mqttjs_db7ed683 closed its connection.
+1736446551: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736446622: New connection from 172.18.0.3:49028 on port 1883.
+1736446622: New client connected from 172.18.0.3:49028 as nette-mqtt-client (p1, c0, k10).
+1736446672: Client mqttjs_4989b727 closed its connection.
+1736446672: New client connected from ::ffff:192.168.65.1:31063 as mqttjs_3418f7bb (p2, c1, k60).
+1736446672: New client connected from ::ffff:192.168.65.1:31064 as mqttjs_c8a61fbe (p2, c1, k60).
+1736446702: Client nette-mqtt-client closed its connection.
+1736446703: New connection from 172.18.0.3:35738 on port 1883.
+1736446703: New client connected from 172.18.0.3:35738 as nette-mqtt-client (p1, c0, k10).
+1736446726: Client mqttjs_3418f7bb closed its connection.
+1736446726: Client mqttjs_c8a61fbe closed its connection.
+1736446727: New client connected from ::ffff:192.168.65.1:31065 as mqttjs_4b8e3574 (p2, c1, k60).
+1736446727: New client connected from ::ffff:192.168.65.1:31066 as mqttjs_605387c6 (p2, c1, k60).
+1736446735: Client nette-mqtt-client closed its connection.
+1736446736: New connection from 172.18.0.3:56198 on port 1883.
+1736446736: New client connected from 172.18.0.3:56198 as nette-mqtt-client (p1, c0, k10).
+1736446764: Client mqttjs_4b8e3574 closed its connection.
+1736446764: Client mqttjs_605387c6 closed its connection.
+1736446764: New client connected from ::ffff:192.168.65.1:31068 as mqttjs_f429261c (p2, c1, k60).
+1736446764: New client connected from ::ffff:192.168.65.1:31069 as mqttjs_5b08691f (p2, c1, k60).
+1736446773: Client mqttjs_f429261c closed its connection.
+1736446773: Client mqttjs_5b08691f closed its connection.
+1736446773: New client connected from ::ffff:192.168.65.1:31070 as mqttjs_76f4b31d (p2, c1, k60).
+1736446773: New client connected from ::ffff:192.168.65.1:31071 as mqttjs_4f03d0b8 (p2, c1, k60).
+1736446805: Client mqttjs_76f4b31d closed its connection.
+1736446805: Client mqttjs_4f03d0b8 closed its connection.
+1736446806: New client connected from ::ffff:192.168.65.1:31072 as mqttjs_c4ade485 (p2, c1, k60).
+1736446806: New client connected from ::ffff:192.168.65.1:31073 as mqttjs_564eca1e (p2, c1, k60).
+1736446834: Client mqttjs_c4ade485 closed its connection.
+1736446834: Client mqttjs_564eca1e closed its connection.
+1736446834: New client connected from ::ffff:192.168.65.1:31075 as mqttjs_cac297f2 (p2, c1, k60).
+1736446834: New client connected from ::ffff:192.168.65.1:31076 as mqttjs_df714fe1 (p2, c1, k60).
+1736446851: Client nette-mqtt-client closed its connection.
+1736446852: New connection from 172.18.0.3:46786 on port 1883.
+1736446852: New client connected from 172.18.0.3:46786 as nette-mqtt-client (p1, c0, k10).
+1736446873: Client mqttjs_cac297f2 closed its connection.
+1736446873: Client mqttjs_df714fe1 closed its connection.
+1736446874: New client connected from ::ffff:192.168.65.1:31077 as mqttjs_5638d7f4 (p2, c1, k60).
+1736446874: New client connected from ::ffff:192.168.65.1:31078 as mqttjs_12c70d83 (p2, c1, k60).
+1736446878: Client nette-mqtt-client closed its connection.
+1736446879: New connection from 172.18.0.3:54078 on port 1883.
+1736446879: New client connected from 172.18.0.3:54078 as nette-mqtt-client (p1, c0, k10).
+1736446894: Client mqttjs_5638d7f4 closed its connection.
+1736446894: Client mqttjs_12c70d83 closed its connection.
+1736446895: New client connected from ::ffff:192.168.65.1:31079 as mqttjs_8a3c99e0 (p2, c1, k60).
+1736446895: New client connected from ::ffff:192.168.65.1:31080 as mqttjs_91f254f4 (p2, c1, k60).
+1736446900: Client nette-mqtt-client closed its connection.
+1736446901: New connection from 172.18.0.3:36862 on port 1883.
+1736446901: New client connected from 172.18.0.3:36862 as nette-mqtt-client (p1, c0, k10).
+1736446988: Client mqttjs_8a3c99e0 closed its connection.
+1736447016: New client connected from ::ffff:192.168.65.1:31082 as mqttjs_73231e0e (p2, c1, k60).
+1736447016: New client connected from ::ffff:192.168.65.1:31083 as mqttjs_911106ee (p2, c1, k60).
+1736447061: Client mqttjs_91f254f4 closed its connection.
+1736447063: New client connected from ::ffff:192.168.65.1:31084 as mqttjs_91f254f4 (p2, c1, k60).
+1736447067: Client mqttjs_91f254f4 closed its connection.
+1736447069: New client connected from ::ffff:192.168.65.1:31085 as mqttjs_91f254f4 (p2, c1, k60).
+1736447076: Client nette-mqtt-client closed its connection.
+1736447108: Client mqttjs_73231e0e closed its connection.
+1736447162: Client mqttjs_91f254f4 closed its connection.
+1736447698: mosquitto version 2.0.20 terminating
+1736447698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736447698: Client mqttjs_911106ee closed its connection.
+1736447713: mosquitto version 2.0.20 starting
+1736447713: Config loaded from /mosquitto/config/mosquitto.conf.
+1736447713: Opening ipv4 listen socket on port 1883.
+1736447713: Opening ipv6 listen socket on port 1883.
+1736447713: Opening websockets listen socket on port 9001.
+1736447713: mosquitto version 2.0.20 running
+1736447713: New client connected from ::ffff:192.168.65.1:31086 as mqttjs_911106ee (p2, c1, k60).
+1736447809: Client mqttjs_911106ee closed its connection.
+1736447895: New client connected from ::ffff:192.168.65.1:31090 as mqttjs_911106ee (p2, c1, k60).
+1736447962: New connection from 172.18.0.5:35248 on port 1883.
+1736447962: New client connected from 172.18.0.5:35248 as nette-mqtt-client (p1, c0, k10).
+1736447978: New connection from 172.18.0.3:39650 on port 1883.
+1736447978: New client connected from 172.18.0.3:39650 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736447989: Client mqttjs_911106ee closed its connection.
+1736447991: New client connected from ::ffff:192.168.65.1:31099 as mqttjs_911106ee (p2, c1, k60).
+1736448085: Client mqttjs_911106ee closed its connection.
+1736448089: New client connected from ::ffff:192.168.65.1:31102 as mqttjs_911106ee (p2, c1, k60).
+1736448181: Client mqttjs_911106ee closed its connection.
+1736448317: mosquitto version 2.0.20 terminating
+1736448317: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736448337: mosquitto version 2.0.20 starting
+1736448337: Config loaded from /mosquitto/config/mosquitto.conf.
+1736448337: Opening ipv4 listen socket on port 1883.
+1736448337: Opening ipv6 listen socket on port 1883.
+1736448337: Opening websockets listen socket on port 9001.
+1736448337: mosquitto version 2.0.20 running
+1736448387: New client connected from ::ffff:192.168.65.1:31106 as mqttjs_911106ee (p2, c1, k60).
+1736448396: New connection from 172.18.0.5:37044 on port 1883.
+1736448396: New client connected from 172.18.0.5:37044 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736448408: New client connected from ::ffff:192.168.65.1:31115 as mqttjs_91f254f4 (p2, c1, k60).
+1736448422: New connection from 172.18.0.3:43820 on port 1883.
+1736448422: New client connected from 172.18.0.3:43820 as nette-mqtt-client (p1, c0, k10).
+1736448471: Client nette-mqtt-client closed its connection.
+1736448479: Client mqttjs_91f254f4 closed its connection.
+1736448587: mosquitto version 2.0.20 terminating
+1736448587: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736448587: Client mqttjs_911106ee closed its connection.
+1736448605: mosquitto version 2.0.20 starting
+1736448605: Config loaded from /mosquitto/config/mosquitto.conf.
+1736448605: Opening ipv4 listen socket on port 1883.
+1736448605: Opening ipv6 listen socket on port 1883.
+1736448605: Opening websockets listen socket on port 9001.
+1736448605: mosquitto version 2.0.20 running
+1736448606: New client connected from ::ffff:192.168.65.1:31117 as mqttjs_911106ee (p2, c1, k60).
+1736448660: New connection from 172.18.0.5:57716 on port 1883.
+1736448660: New client connected from 172.18.0.5:57716 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736448682: New connection from 172.18.0.4:34704 on port 1883.
+1736448682: New client connected from 172.18.0.4:34704 as nette-mqtt-client (p1, c0, k10).
+1736448718: Client nette-mqtt-client closed its connection.
+1736448980: mosquitto version 2.0.20 terminating
+1736448980: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736448980: Client mqttjs_911106ee closed its connection.
+1736449004: mosquitto version 2.0.20 starting
+1736449004: Config loaded from /mosquitto/config/mosquitto.conf.
+1736449004: Opening ipv4 listen socket on port 1883.
+1736449004: Opening ipv6 listen socket on port 1883.
+1736449004: Opening websockets listen socket on port 9001.
+1736449004: mosquitto version 2.0.20 running
+1736449020: New connection from 172.18.0.2:37346 on port 1883.
+1736449020: New client connected from 172.18.0.2:37346 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736449046: New connection from 172.18.0.3:39254 on port 1883.
+1736449046: New client connected from 172.18.0.3:39254 as nette-mqtt-client (p1, c0, k10).
+1736449065: Client nette-mqtt-client closed its connection.
+1736449140: New client connected from ::ffff:192.168.65.1:31133 as mqttjs_911106ee (p2, c1, k60).
+1736449232: Client mqttjs_911106ee closed its connection.
+1736449345: New client connected from ::ffff:192.168.65.1:31134 as mqttjs_911106ee (p2, c1, k60).
+1736449436: Client mqttjs_911106ee closed its connection.
+1736450805: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736451236: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736451237: New connection from 172.18.0.2:57152 on port 1883.
+1736451237: New client connected from 172.18.0.2:57152 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736451352: New client connected from ::ffff:192.168.65.1:31151 as mqttjs_91f254f4 (p2, c1, k60).
+1736451445: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736451445: Client mqttjs_91f254f4 closed its connection.
+1736451446: New connection from 172.18.0.2:53918 on port 1883.
+1736451446: New client connected from 172.18.0.2:53918 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736451446: New client connected from ::ffff:192.168.65.1:31152 as mqttjs_91f254f4 (p2, c1, k60).
+1736451599: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736451599: Client mqttjs_91f254f4 closed its connection.
+1736451600: New connection from 172.18.0.2:38194 on port 1883.
+1736451600: New client connected from 172.18.0.2:38194 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736452176: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736452177: New connection from 172.18.0.2:40902 on port 1883.
+1736452177: New client connected from 172.18.0.2:40902 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736452489: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736452490: New connection from 172.18.0.2:41220 on port 1883.
+1736452490: New client connected from 172.18.0.2:41220 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736452627: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736452627: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736452628: New connection from 172.18.0.2:54426 on port 1883.
+1736452628: New client connected from 172.18.0.2:54426 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736453073: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736453074: New connection from 172.18.0.2:55146 on port 1883.
+1736453074: New client connected from 172.18.0.2:55146 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736453094: New client connected from ::ffff:192.168.65.1:31153 as mqttjs_911106ee (p2, c1, k60).
+1736453176: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736453177: New connection from 172.18.0.2:54750 on port 1883.
+1736453177: New client connected from 172.18.0.2:54750 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736453188: Client mqttjs_911106ee closed its connection.
+1736453398: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736453399: New connection from 172.18.0.2:38898 on port 1883.
+1736453399: New client connected from 172.18.0.2:38898 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736453682: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736453683: New connection from 172.18.0.2:55886 on port 1883.
+1736453683: New client connected from 172.18.0.2:55886 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736453995: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736453996: New connection from 172.18.0.2:52208 on port 1883.
+1736453996: New client connected from 172.18.0.2:52208 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736454278: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736454279: New connection from 172.18.0.2:33872 on port 1883.
+1736454279: New client connected from 172.18.0.2:33872 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736454590: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736454590: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736454591: New connection from 172.18.0.2:55370 on port 1883.
+1736454591: New client connected from 172.18.0.2:55370 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736454873: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736454874: New connection from 172.18.0.2:55588 on port 1883.
+1736454874: New client connected from 172.18.0.2:55588 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736455786: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736455787: New connection from 172.18.0.2:51544 on port 1883.
+1736455787: New client connected from 172.18.0.2:51544 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736456099: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736456100: New connection from 172.18.0.2:59748 on port 1883.
+1736456100: New client connected from 172.18.0.2:59748 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736456283: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736456284: New connection from 172.18.0.2:36762 on port 1883.
+1736456284: New client connected from 172.18.0.2:36762 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736456319: New client connected from ::ffff:192.168.65.1:31156 as mqttjs_91f254f4 (p2, c1, k60).
+1736456874: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736456874: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736456875: Client mqttjs_91f254f4 closed its connection.
+1736456875: New connection from 172.18.0.2:43722 on port 1883.
+1736456875: New client connected from 172.18.0.2:43722 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736458343: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736458344: New connection from 172.18.0.2:34586 on port 1883.
+1736458344: New client connected from 172.18.0.2:34586 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736461311: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736461311: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736461312: New connection from 172.18.0.2:49582 on port 1883.
+1736461312: New client connected from 172.18.0.2:49582 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736461370: New client connected from ::ffff:192.168.65.1:31160 as mqttjs_911106ee (p2, c1, k60).
+1736461806: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736461806: Client mqttjs_911106ee closed its connection.
+1736461807: New connection from 172.18.0.2:51496 on port 1883.
+1736461807: New client connected from 172.18.0.2:51496 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736462008: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736462009: New connection from 172.18.0.2:46022 on port 1883.
+1736462009: New client connected from 172.18.0.2:46022 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736463048: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736463049: New connection from 172.18.0.2:53996 on port 1883.
+1736463049: New client connected from 172.18.0.2:53996 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736463690: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736463690: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736463691: New connection from 172.18.0.2:46968 on port 1883.
+1736463691: New client connected from 172.18.0.2:46968 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736465586: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736465586: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736465587: New connection from 172.18.0.2:58226 on port 1883.
+1736465587: New client connected from 172.18.0.2:58226 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736465679: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736465680: New connection from 172.18.0.2:45164 on port 1883.
+1736465680: New client connected from 172.18.0.2:45164 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736467767: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736467767: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736467768: New connection from 172.18.0.2:53854 on port 1883.
+1736467768: New client connected from 172.18.0.2:53854 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736469337: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736469338: New connection from 172.18.0.2:59982 on port 1883.
+1736469338: New client connected from 172.18.0.2:59982 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736471328: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736471328: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736471329: New connection from 172.18.0.2:50954 on port 1883.
+1736471329: New client connected from 172.18.0.2:50954 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736472993: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736472994: New connection from 172.18.0.2:50962 on port 1883.
+1736472994: New client connected from 172.18.0.2:50962 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736473921: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736473921: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736473922: New connection from 172.18.0.2:51986 on port 1883.
+1736473922: New client connected from 172.18.0.2:51986 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736476239: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736476239: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736476240: New connection from 172.18.0.2:56340 on port 1883.
+1736476240: New client connected from 172.18.0.2:56340 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736476633: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736476634: New connection from 172.18.0.2:60148 on port 1883.
+1736476634: New client connected from 172.18.0.2:60148 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736479522: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736479522: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736479523: New connection from 172.18.0.2:55490 on port 1883.
+1736479523: New client connected from 172.18.0.2:55490 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736480320: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736480321: New connection from 172.18.0.2:53220 on port 1883.
+1736480321: New client connected from 172.18.0.2:53220 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736483272: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736483272: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736483273: New connection from 172.18.0.2:47970 on port 1883.
+1736483273: New client connected from 172.18.0.2:47970 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736483977: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736483978: New connection from 172.18.0.2:40508 on port 1883.
+1736483978: New client connected from 172.18.0.2:40508 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736484980: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736484981: New connection from 172.18.0.2:47348 on port 1883.
+1736484981: New client connected from 172.18.0.2:47348 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736486945: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736486945: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736486946: New connection from 172.18.0.2:53208 on port 1883.
+1736486946: New client connected from 172.18.0.2:53208 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736487634: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736487635: New connection from 172.18.0.2:55138 on port 1883.
+1736487635: New client connected from 172.18.0.2:55138 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736488670: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736488671: New connection from 172.18.0.2:37882 on port 1883.
+1736488671: New client connected from 172.18.0.2:37882 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736489640: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736489640: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736489641: New connection from 172.18.0.2:42020 on port 1883.
+1736489641: New client connected from 172.18.0.2:42020 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736490634: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736490634: Client <unknown> closed its connection.
+1736490635: New connection from 172.18.0.2:50786 on port 1883.
+1736490635: New client connected from 172.18.0.2:50786 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736490884: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736490885: New connection from 172.18.0.2:57184 on port 1883.
+1736490885: New client connected from 172.18.0.2:57184 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736491281: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736491282: New connection from 172.18.0.2:57316 on port 1883.
+1736491282: New client connected from 172.18.0.2:57316 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736491328: New client connected from ::ffff:192.168.65.1:31173 as mqttjs_911106ee (p2, c1, k60).
+1736494939: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736494939: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736494939: Client mqttjs_911106ee closed its connection.
+1736494940: New connection from 172.18.0.2:56954 on port 1883.
+1736494940: New client connected from 172.18.0.2:56954 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736496018: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736496019: New connection from 172.18.0.2:44150 on port 1883.
+1736496019: New client connected from 172.18.0.2:44150 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736496963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736496963: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736496964: New connection from 172.18.0.2:37568 on port 1883.
+1736496964: New client connected from 172.18.0.2:37568 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736497896: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736497897: New connection from 172.18.0.2:46862 on port 1883.
+1736497897: New client connected from 172.18.0.2:46862 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736498611: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736498612: New connection from 172.18.0.2:37782 on port 1883.
+1736498612: New client connected from 172.18.0.2:37782 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736499198: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736499198: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736499199: New connection from 172.18.0.2:55906 on port 1883.
+1736499199: New client connected from 172.18.0.2:55906 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736500572: New client connected from ::ffff:192.168.65.1:31188 as mqttjs_91f254f4 (p2, c1, k60).
+1736500999: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736502800: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736503633: Client mqttjs_91f254f4 closed its connection.
+1736503634: New client connected from ::ffff:192.168.65.1:31237 as mqttjs_38355ea2 (p2, c1, k60).
+1736503634: New client connected from ::ffff:192.168.65.1:31238 as mqttjs_e4a52178 (p2, c1, k60).
+1736503654: New client connected from ::ffff:192.168.65.1:31239 as mqttjs_d5a183c5 (p2, c1, k60).
+1736503654: New client connected from ::ffff:192.168.65.1:31240 as mqttjs_14e2e5a3 (p2, c1, k60).
+1736503665: Client mqttjs_38355ea2 closed its connection.
+1736503665: Client mqttjs_e4a52178 closed its connection.
+1736503665: New client connected from ::ffff:192.168.65.1:31241 as mqttjs_4ddbb221 (p2, c1, k60).
+1736503665: New client connected from ::ffff:192.168.65.1:31242 as mqttjs_c7d3c6cc (p2, c1, k60).
+1736503746: Client mqttjs_14e2e5a3 closed its connection.
+1736503758: Client mqttjs_4ddbb221 closed its connection.
+1736503765: Client mqtt-explorer-50d4d298 disconnected.
+1736503765: New connection from 172.18.0.2:36322 on port 1883.
+1736503765: New client connected from 172.18.0.2:36322 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736503795: Client mqttjs_d5a183c5 disconnected.
+1736503796: New client connected from ::ffff:192.168.65.1:31245 as mqttjs_f4f7f986 (p2, c1, k60).
+1736503796: New client connected from ::ffff:192.168.65.1:31246 as mqttjs_4223f2e1 (p2, c1, k60).
+1736503890: Client mqttjs_f4f7f986 closed its connection.
+1736503931: Client mqttjs_c7d3c6cc closed its connection.
+1736503931: New client connected from ::ffff:192.168.65.1:31251 as mqttjs_6a333a31 (p2, c1, k60).
+1736503931: New client connected from ::ffff:192.168.65.1:31253 as mqttjs_bcca7cb2 (p2, c1, k60).
+1736503933: Client mqttjs_6a333a31 closed its connection.
+1736503933: Client mqttjs_bcca7cb2 closed its connection.
+1736503933: New client connected from ::ffff:192.168.65.1:31255 as mqttjs_8f901bc4 (p2, c1, k60).
+1736503933: New client connected from ::ffff:192.168.65.1:31256 as mqttjs_0d958f43 (p2, c1, k60).
+1736504028: Client mqttjs_8f901bc4 closed its connection.
+1736504533: Client mqttjs_0d958f43 closed its connection.
+1736504533: New client connected from ::ffff:192.168.65.1:31262 as mqttjs_8a6103ca (p2, c1, k60).
+1736504533: New client connected from ::ffff:192.168.65.1:31263 as mqttjs_d891f596 (p2, c1, k60).
+1736504601: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736504628: Client mqttjs_8a6103ca closed its connection.
+1736504771: Client mqttjs_4223f2e1 closed its connection.
+1736504771: Client mqttjs_d891f596 closed its connection.
+1736504772: New client connected from ::ffff:192.168.65.1:31266 as mqttjs_acf1d8a0 (p2, c1, k60).
+1736504772: New client connected from ::ffff:192.168.65.1:31265 as mqttjs_e613021f (p2, c1, k60).
+1736504773: New client connected from ::ffff:192.168.65.1:31267 as mqttjs_f694da52 (p2, c1, k60).
+1736504773: New client connected from ::ffff:192.168.65.1:31268 as mqttjs_3db4c15e (p2, c1, k60).
+1736504848: Client mqttjs_f694da52 closed its connection.
+1736504848: Client mqttjs_3db4c15e closed its connection.
+1736504848: New client connected from ::ffff:192.168.65.1:31270 as mqttjs_2fe0c8b1 (p2, c1, k60).
+1736504849: New client connected from ::ffff:192.168.65.1:31272 as mqttjs_8dabaf5f (p2, c1, k60).
+1736504868: Client mqttjs_e613021f closed its connection.
+1736504935: Client mqttjs_8dabaf5f closed its connection.
+1736504935: Client mqttjs_2fe0c8b1 closed its connection.
+1736504935: Client mqttjs_acf1d8a0 closed its connection.
+1736504936: New client connected from ::ffff:192.168.65.1:31277 as mqttjs_52ddb028 (p2, c1, k60).
+1736504936: New client connected from ::ffff:192.168.65.1:31275 as mqttjs_445f0c5b (p2, c1, k60).
+1736504936: New client connected from ::ffff:192.168.65.1:31279 as mqttjs_278fd7a1 (p2, c1, k60).
+1736504936: New client connected from ::ffff:192.168.65.1:31280 as mqttjs_eb1a0285 (p2, c1, k60).
+1736504985: Client mqttjs_52ddb028 closed its connection.
+1736504985: Client mqttjs_eb1a0285 closed its connection.
+1736504985: New client connected from ::ffff:192.168.65.1:31282 as mqttjs_fc4b9e69 (p2, c1, k60).
+1736504986: New client connected from ::ffff:192.168.65.1:31283 as mqttjs_97a5bbd1 (p2, c1, k60).
+1736505018: Client mqttjs_fc4b9e69 closed its connection.
+1736505018: Client mqttjs_97a5bbd1 closed its connection.
+1736505018: New client connected from ::ffff:192.168.65.1:31285 as mqttjs_c686850d (p2, c1, k60).
+1736505018: New client connected from ::ffff:192.168.65.1:31286 as mqttjs_426b8cab (p2, c1, k60).
+1736505027: Client mqttjs_c686850d closed its connection.
+1736505027: Client mqttjs_426b8cab closed its connection.
+1736505027: New client connected from ::ffff:192.168.65.1:31288 as mqttjs_fc468467 (p2, c1, k60).
+1736505028: New client connected from ::ffff:192.168.65.1:31289 as mqttjs_50a5996e (p2, c1, k60).
+1736505030: Client mqttjs_445f0c5b closed its connection.
+1736505120: Client mqttjs_fc468467 closed its connection.
+1736505209: New connection from 172.18.0.3:43014 on port 1883.
+1736505209: New client connected from 172.18.0.3:43014 as nette-mqtt-client (p1, c0, k10).
+1736505340: Client nette-mqtt-client closed its connection.
+1736505526: Client mqttjs_50a5996e closed its connection.
+1736505526: New client connected from ::ffff:192.168.65.1:31305 as mqttjs_cf870d6b (p2, c1, k60).
+1736505526: New client connected from ::ffff:192.168.65.1:31307 as mqttjs_9716d6b8 (p2, c1, k60).
+1736505529: Client mqttjs_cf870d6b closed its connection.
+1736505529: Client mqttjs_9716d6b8 closed its connection.
+1736505529: New client connected from ::ffff:192.168.65.1:31309 as mqttjs_07713580 (p2, c1, k60).
+1736505529: New client connected from ::ffff:192.168.65.1:31310 as mqttjs_70ddf8f1 (p2, c1, k60).
+1736505624: Client mqttjs_07713580 closed its connection.
+1736506181: New client connected from ::ffff:192.168.65.1:31322 as mqttjs_539f5fe7 (p2, c1, k60).
+1736506181: Client mqttjs_278fd7a1 disconnected.
+1736506181: New client connected from ::ffff:192.168.65.1:31325 as mqttjs_a81c0ce4 (p2, c1, k60).
+1736506181: Client mqttjs_70ddf8f1 disconnected.
+1736506362: Client mqttjs_a81c0ce4 closed its connection.
+1736506364: New client connected from ::ffff:192.168.65.1:31326 as mqttjs_a81c0ce4 (p2, c1, k60).
+1736506402: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736506458: Client mqttjs_539f5fe7 closed its connection.
+1736506458: Client mqttjs_a81c0ce4 closed its connection.
+1736508203: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736509424: New client connected from ::ffff:192.168.65.1:31339 as mqttjs_a81c0ce4 (p2, c1, k60).
+1736509518: Client mqttjs_a81c0ce4 closed its connection.
+1736509642: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736509643: New connection from 172.18.0.2:34208 on port 1883.
+1736509643: New client connected from 172.18.0.2:34208 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736509954: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736509955: New connection from 172.18.0.2:59678 on port 1883.
+1736509955: New client connected from 172.18.0.2:59678 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736510004: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736510609: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736510610: New connection from 172.18.0.2:42176 on port 1883.
+1736510610: New client connected from 172.18.0.2:42176 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736510735: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736510736: New connection from 172.18.0.2:58078 on port 1883.
+1736510736: New client connected from 172.18.0.2:58078 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736511202: Client mqtt-explorer-50d4d298 has exceeded timeout, disconnecting.
+1736511203: New connection from 172.18.0.2:37406 on port 1883.
+1736511203: New client connected from 172.18.0.2:37406 as mqtt-explorer-50d4d298 (p2, c1, k60).
+1736511805: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736512811: mosquitto version 2.0.20 terminating
+1736512811: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736513230: mosquitto version 2.0.20 starting
+1736513230: Config loaded from /mosquitto/config/mosquitto.conf.
+1736513230: Opening ipv4 listen socket on port 1883.
+1736513230: Opening ipv6 listen socket on port 1883.
+1736513230: Opening websockets listen socket on port 9001.
+1736513230: mosquitto version 2.0.20 running
+1736513307: mosquitto version 2.0.20 terminating
+1736513307: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736513325: mosquitto version 2.0.20 starting
+1736513325: Config loaded from /mosquitto/config/mosquitto.conf.
+1736513325: Opening ipv4 listen socket on port 1883.
+1736513325: Opening ipv6 listen socket on port 1883.
+1736513325: Opening websockets listen socket on port 9001.
+1736513325: mosquitto version 2.0.20 running
+1736513562: mosquitto version 2.0.20 terminating
+1736513562: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736513577: mosquitto version 2.0.20 starting
+1736513577: Config loaded from /mosquitto/config/mosquitto.conf.
+1736513577: Opening ipv4 listen socket on port 1883.
+1736513577: Opening ipv6 listen socket on port 1883.
+1736513577: Opening websockets listen socket on port 9001.
+1736513577: mosquitto version 2.0.20 running
+1736514153: mosquitto version 2.0.20 terminating
+1736514153: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1736514170: mosquitto version 2.0.20 starting
+1736514170: Config loaded from /mosquitto/config/mosquitto.conf.
+1736514170: Opening ipv4 listen socket on port 1883.
+1736514170: Opening ipv6 listen socket on port 1883.
+1736514170: Opening websockets listen socket on port 9001.
+1736514170: mosquitto version 2.0.20 running
+1736514239: mosquitto version 2.0.20 terminating
+1736514239: Saving in-memory database to /mosquitto/data//mosquitto.db.
