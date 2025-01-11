@@ -16,11 +16,12 @@ class Bootstrap
 
         //$configurator->setDebugMode('secret@23.75.345.200'); // enable for your remote IP
         // According to NETTE_DEBUG env
-        $configurator->setEnvDebugMode();
+//        $configurator->setEnvDebugMode();
+        $configurator->setDebugMode(false);
 
         $configurator->enableTracy(__DIR__ . '/../log');
 
-        $configurator->setTimeZone('UTC');
+        $configurator->setTimeZone('Europe/Bratislava');
         $configurator->setTempDirectory(__DIR__ . '/../temp');
 
         $configurator->addConfig(__DIR__ . '/../config/config.neon');
