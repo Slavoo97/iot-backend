@@ -54,7 +54,7 @@ class MqttSubscribeHumidityCommand extends Command
                 $humidityValue = $data['metrics'][0]['value'];
                 $io->text($humidityValue);
 
-                $this->humidityRepository->create($humidityValue);
+                $this->humidityRepository->create((string)$humidityValue);
 
                 $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
             } else {
