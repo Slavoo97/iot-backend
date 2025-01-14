@@ -3,6 +3,7 @@
 namespace App\Command;
 
 use App\Model\Services\HumidityRepository;
+use App\Model\Services\ImageRepository;
 use App\Utils\MqttConfig;
 use App\Utils\Services\MqttService;
 use Symfony\Component\Console\Command\Command;
@@ -23,12 +24,16 @@ class MqttSubscribeHumidityCommand extends Command
     /** @var HumidityRepository */
     private HumidityRepository $humidityRepository;
 
-    public function __construct(MqttService $mqttService, MqttConfig $mqttConfig, HumidityRepository $humidityRepository)
+    /** @var ImageRepository */
+    private ImageRepository $imageRepository;
+
+    public function __construct(MqttService $mqttService, MqttConfig $mqttConfig, HumidityRepository $humidityRepository, ImageRepository $imageRepository)
     {
         parent::__construct();
         $this->mqttService = $mqttService;
         $this->mqttConfig = $mqttConfig;
         $this->humidityRepository = $humidityRepository;
+        $this->imageRepository = $imageRepository;
     }
 
     protected function configure(): void
@@ -64,25 +69,35 @@ class MqttSubscribeHumidityCommand extends Command
                         $io->error("Neplatná správa prijatá: {$message}");
                     }
                 }
+            ],
+            [
+                'name' => $this->mqttConfig->getImageTopic(),
+                'callback' => function ($topic, $message) use ($io) {
+                    $data = json_decode($message, true);
+
+                    if (isset($data['image_data']) && isset($data['image_name'])) {
+                        $imageData = $data['image_data'];
+                        $fileName = $data['image_name'];
+                        $io->text("Received image: {$fileName}");
+//                        $io->text("Image data: {$imageData}");
+
+                        $imageData = base64_decode($imageData);
+                        $directory = __DIR__ . '/../../www/upload/images/';
+                        $filePath = $directory . $fileName;
+
+                        if (!is_dir($directory)) {
+                            mkdir($directory, 0777, true);
+                        }
+
+                        file_put_contents($filePath, $imageData);
+
+                        $this->imageRepository->createImage('/upload/images/' . $fileName, $fileName);
+
+                    } else {
+                        $io->error("Neplatná správa prijatá: {$message}");
+                    }
+                }
             ]
-//            ,
-//            [
-//                'name' => $this->mqttConfig->getImageTopic(),
-//                'callback' => function ($topic, $message) use ($io) {
-//                    $data = json_decode($message, true);
-//
-//                    if (isset($data['metrics'][0]['value'])) {
-//                        $humidityValue = $data['metrics'][0]['value'];
-//                        $io->text($humidityValue);
-//
-//                        $this->humidityRepository->create((string)$humidityValue);
-//
-//                        $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
-//                    } else {
-//                        $io->error("Neplatná správa prijatá: {$message}");
-//                    }
-//                }
-//            ]
         ];
         $this->mqttService->listen($topics);
 
