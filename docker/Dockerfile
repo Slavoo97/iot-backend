@@ -13,9 +13,15 @@ RUN apt-get update && apt-get install -y \
 #    && docker-php-ext-configure gd \
 #       --with-freetype \
 #       --with-jpeg \
+    python3 \
+    python3-pip \
+    libopencv-dev \
+    python3-opencv \
     git unzip \
     && docker-php-ext-install pdo_mysql \
     && rm -rf /var/lib/apt/lists/*
+
+RUN apt-get install -y python3-opencv libopencv-dev
 
 ENV TZ=Europe/Bratislava
 RUN ln -sf /usr/share/zoneinfo/Europe/Bratislava /etc/localtime && \

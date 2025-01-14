@@ -43,7 +43,6 @@ class MqttService
     public function connect(): void
     {
         try {
-            echo $this->mqttConfig->getHost();
             $this->client->connect($this->connectionSettings, true);
             echo "Pripojený k MQTT brokeru na {$this->client->getHost()}:{$this->client->getPort()}\n";
         } catch (MqttClientException $e) {
@@ -56,14 +55,19 @@ class MqttService
      *
      * @param string $topic MQTT téma
      */
-    public function listen(string $topic, callable $onMessageReceived): void
+    public function listen(array $topics): void
     {
         try {
 
-            $this->client->subscribe($topic, function ($topic, $message) use ($onMessageReceived) {
-                // Zavoláme callback funkciu s prijatou správou
-                $onMessageReceived($topic, $message);
-            }, 0);
+            foreach ($topics as $topic) {
+                $onMessageReceived = $topic['callback'];
+                $topic = $topic['name'];
+
+                $this->client->subscribe($topic, function ($topic, $message) use ($onMessageReceived) {
+                    // Zavoláme callback funkciu s prijatou správou
+                    $onMessageReceived($topic, $message);
+                }, 0);
+            }
 
             $this->client->loop(true);
         } catch (MqttClientException $e) {

@@ -3,6 +3,7 @@
 namespace App\Model\Services;
 
 use App\Model\Entity\Image;
+use DateTime;
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Exception\ORMException;
@@ -97,7 +98,6 @@ final class ImageRepository extends EntityRepository {
  		return $entity;
 	}
 
-
 	/**
 	 * @param Image $image
 	 * @throws Exception
@@ -106,4 +106,15 @@ final class ImageRepository extends EntityRepository {
 		$this->em->remove($image);
 		$this->em->flush();
    }
+
+    public function deleteOlderThan(DateTime $date): int
+    {
+        $qb = $this->createQueryBuilder('t');
+
+        $qb->delete()
+            ->where('t.date < :date')
+            ->setParameter('date', $date);
+
+        return $qb->getQuery()->execute();
+    }
 }

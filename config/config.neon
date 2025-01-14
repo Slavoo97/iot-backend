@@ -26,7 +26,7 @@ services:
 	- App\Http\ApiResponseFormatter
 	- App\Routing\RouterFactory
 	- App\Utils\Services\MqttService
-	- App\Utils\MqttConfig(temperatureTopic: %mqtt.temperature-topic%, host: %mqtt.host%, port: %mqtt.port%, clientId: %mqtt.clientId%, humidityTopic: %mqtt.humidity-topic%)
+	- App\Utils\MqttConfig(temperatureTopic: %mqtt.temperature-topic%, host: %mqtt.host%, port: %mqtt.port%, clientId: %mqtt.clientId%, humidityTopic: %mqtt.humidity-topic%, imageTopic: %mqtt.image-topic%)
 
 	router: @App\Routing\RouterFactory::create
 
@@ -36,6 +36,7 @@ services:
 	- App\Controllers\GetLastTemperatureController
 	- App\Controllers\GetLastHumidityController
 	- App\Controllers\GetLastImageController
+	- App\Controllers\GenerateVideoController
 
 
 	TemperatureRepository:

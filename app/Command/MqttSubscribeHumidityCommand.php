@@ -45,22 +45,46 @@ class MqttSubscribeHumidityCommand extends Command
         $io->title('Starting MQTT subscriber...');
         $this->mqttService->connect();
 
-        $io->text('Subscribing to topic: ' . $this->mqttConfig->getHumidityTopic());
+//        $io->text('Subscribing to topic: ' . $this->mqttConfig->getHumidityTopic());
 
-        $this->mqttService->listen($this->mqttConfig->getHumidityTopic(), function ($topic, $message) use ($io) {
-            $data = json_decode($message, true);
+        $topics = [
+            [
+                'name' => $this->mqttConfig->getHumidityTopic(),
+                'callback' => function ($topic, $message) use ($io) {
+                    $data = json_decode($message, true);
 
-            if (isset($data['metrics'][0]['value'])) {
-                $humidityValue = $data['metrics'][0]['value'];
-                $io->text($humidityValue);
+                    if (isset($data['metrics'][0]['value'])) {
+                        $humidityValue = $data['metrics'][0]['value'];
+                        $io->text($humidityValue);
 
-                $this->humidityRepository->create((string)$humidityValue);
+                        $this->humidityRepository->create((string)$humidityValue);
 
-                $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
-            } else {
-                $io->error("Neplatná správa prijatá: {$message}");
-            }
-        });
+                        $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
+                    } else {
+                        $io->error("Neplatná správa prijatá: {$message}");
+                    }
+                }
+            ]
+//            ,
+//            [
+//                'name' => $this->mqttConfig->getImageTopic(),
+//                'callback' => function ($topic, $message) use ($io) {
+//                    $data = json_decode($message, true);
+//
+//                    if (isset($data['metrics'][0]['value'])) {
+//                        $humidityValue = $data['metrics'][0]['value'];
+//                        $io->text($humidityValue);
+//
+//                        $this->humidityRepository->create((string)$humidityValue);
+//
+//                        $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
+//                    } else {
+//                        $io->error("Neplatná správa prijatá: {$message}");
+//                    }
+//                }
+//            ]
+        ];
+        $this->mqttService->listen($topics);
 
         $io->success('Subscriber finished.');
         return Command::SUCCESS;
