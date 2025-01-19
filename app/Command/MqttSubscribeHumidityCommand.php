@@ -128,8 +128,10 @@ class MqttSubscribeHumidityCommand extends Command
                             if ($this->lightStateRepository->findOneLightStateBy([], ['id' => "DESC"])->getState() !== $statusState) {
                                 $this->lightStateRepository->create($statusState);
                             } else {
-                                $io->text("Light is already {$status}.");
+                                $io->error("Light is already {$status}.");
                             }
+                        } else {
+                            $io->error("status is null.");
                         }
 
                     } else {
