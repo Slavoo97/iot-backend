@@ -41,4 +41,4 @@ RUN a2dissite 000-default.conf && \
 
 RUN service apache2 restart
 
-#CMD ["php", "bin/console", "app:subscribe:humidity"]
+CMD ["php", "bin/console", "app:subscribe:humidity"]
