@@ -124,7 +124,10 @@ class MqttSubscribeHumidityCommand extends Command
                             $io->error("Wrong light status: {$status}");
                         }
 
-                        if (is_int($statusState)) {
+                        $io->text("raw status: {$status}");
+                        $io->text("status: {$statusState}");
+
+                        if (in_array($status, [LightState::STATE_ON, LightState::STATE_OFF])) {
                             if ($this->lightStateRepository->findOneLightStateBy([], ['id' => "DESC"])->getState() !== $statusState) {
                                 $this->lightStateRepository->create($statusState);
                             } else {
