@@ -2,10 +2,14 @@
 
 namespace App\Command;
 
+use App\Model\Entity\LightState;
 use App\Model\Services\HumidityRepository;
 use App\Model\Services\ImageRepository;
+use App\Model\Services\LightStateRepository;
 use App\Utils\MqttConfig;
 use App\Utils\Services\MqttService;
+use Doctrine\Common\Collections\Criteria;
+use Doctrine\Common\Collections\Order;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -27,13 +31,17 @@ class MqttSubscribeHumidityCommand extends Command
     /** @var ImageRepository */
     private ImageRepository $imageRepository;
 
-    public function __construct(MqttService $mqttService, MqttConfig $mqttConfig, HumidityRepository $humidityRepository, ImageRepository $imageRepository)
+    /** @var LightStateRepository */
+    private LightStateRepository $lightStateRepository;
+
+    public function __construct(MqttService $mqttService, MqttConfig $mqttConfig, HumidityRepository $humidityRepository, ImageRepository $imageRepository, LightStateRepository $lightStateRepository)
     {
         parent::__construct();
         $this->mqttService = $mqttService;
         $this->mqttConfig = $mqttConfig;
         $this->humidityRepository = $humidityRepository;
         $this->imageRepository = $imageRepository;
+        $this->lightStateRepository = $lightStateRepository;
     }
 
     protected function configure(): void
@@ -64,9 +72,9 @@ class MqttSubscribeHumidityCommand extends Command
 
                         $this->humidityRepository->create((string)$humidityValue);
 
-                        $io->success("Vlhkosť {$humidityValue} uložená do databázy.");
+                        $io->success("Humidity {$humidityValue} saved into db.");
                     } else {
-                        $io->error("Neplatná správa prijatá: {$message}");
+                        $io->error("Wrong message: {$message}");
                     }
                 }
             ],
@@ -94,7 +102,38 @@ class MqttSubscribeHumidityCommand extends Command
                         $this->imageRepository->createImage('/upload/images/' . $fileName, $fileName);
 
                     } else {
-                        $io->error("Neplatná správa prijatá: {$message}");
+                        $io->error("Wrong message: {$message}");
+                    }
+                }
+            ],
+            [
+                'name' => $this->mqttConfig->getLightTopic(),
+                'callback' => function ($topic, $message) use ($io) {
+                    $data = json_decode($message, true);
+
+                    if (isset($data['status'])) {
+                        $status = $data['status'];
+                        $io->text("Light toggled: {$status}");
+
+                        $statusState = null;
+                        if ($status === 'on') {
+                            $statusState = LightState::STATE_ON;
+                        } elseif ($status === 'off') {
+                            $statusState = LightState::STATE_OFF;
+                        } else {
+                            $io->error("Wrong light status: {$status}");
+                        }
+
+                        if (is_int($statusState)) {
+                            if ($this->lightStateRepository->findOneLightStateBy([], ['id' => "DESC"])->getState() !== $statusState) {
+                                $this->lightStateRepository->create($statusState);
+                            } else {
+                                $io->text("Light is already {$status}.");
+                            }
+                        }
+
+                    } else {
+                        $io->error("Wrong message: {$message}");
                     }
                 }
             ]

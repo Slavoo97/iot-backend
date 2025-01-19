@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Controllers;
 
-use App\Model\Services\TemperatureRepository;
+use App\Model\Services\LightStateRepository;
 use Contributte\ApiRouter\ApiRoute;
 use DateTime;
 use Nette\Application\Request;
@@ -29,8 +29,8 @@ use Tracy\Debugger;
 final class GetLastHumidityController extends AbstractController
 {
 
-    /** @var TemperatureRepository @inject */
-    public TemperatureRepository $weatherRepository;
+    /** @var LightStateRepository @inject */
+    public LightStateRepository $weatherRepository;
 
 	public function run(Request $request): Response
 	{

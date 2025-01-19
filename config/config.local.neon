@@ -9,6 +9,6 @@ parameters:
         host: 147.232.205.176
         port: 1883
         clientId: nette-mqtt-client
-        temperature-topic: kpi/dune/metrics/plant/temperature
+        light-topic: kpi/dune/metrics/plant/light
         humidity-topic: kpi/dune/metrics/plant/moisture/hd519cq
         image-topic: kpi/dune/metrics/plant/image

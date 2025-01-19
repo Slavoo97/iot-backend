@@ -17,7 +17,7 @@ class Bootstrap
         //$configurator->setDebugMode('secret@23.75.345.200'); // enable for your remote IP
         // According to NETTE_DEBUG env
 //        $configurator->setEnvDebugMode();
-        $configurator->setDebugMode(false);
+        $configurator->setDebugMode(true);
 
         $configurator->enableTracy(__DIR__ . '/../log');
 

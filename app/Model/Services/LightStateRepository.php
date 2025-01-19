@@ -7,7 +7,7 @@
 
 namespace App\Model\Services;
 
-use App\Model\Entity\Temperature;
+use App\Model\Entity\LightState;
 use DateTime;
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\EntityManager;
@@ -15,7 +15,7 @@ use Doctrine\ORM\Exception\ORMException;
 use Doctrine\ORM\Mapping\ClassMetadata;
 use Doctrine\ORM\OptimisticLockException;
 
-final class TemperatureRepository extends EntityRepository {
+final class LightStateRepository extends EntityRepository {
 
     /**
      * @var EntityManager
@@ -27,22 +27,22 @@ final class TemperatureRepository extends EntityRepository {
      * @param EntityManager $entityManager
      */
     public function __construct(EntityManager $entityManager){
-        parent::__construct ($entityManager, new ClassMetadata(Temperature::class));
+        parent::__construct ($entityManager, new ClassMetadata(LightState::class));
 
         $this->em = $entityManager;
     }
 
 	/**
 	 * @param int $id
-	 * @return Temperature|null
+	 * @return LightState|null
      * @throws \Doctrine\ORM\ORMException
 	 * @throws \Doctrine\ORM\OptimisticLockException
 	 * @throws \Doctrine\ORM\TransactionRequiredException
 	 */
-    public function getById(int $id) : ?Temperature {
-    	$user = $this->em->find(Temperature::class, $id);
+    public function getById(int $id) : ?LightState {
+    	$user = $this->em->find(LightState::class, $id);
 
-    	if($user instanceof Temperature) {
+    	if($user instanceof LightState) {
     		return $user;
 		}
 		return null;
@@ -53,34 +53,34 @@ final class TemperatureRepository extends EntityRepository {
      * @param $orderBy
      * @param $limit
      * @param $offset
-     * @return mixed
+     * @return LightState[]
      */
-    public function findTemperatureBy(array $criteria = array(), $orderBy = array(), $limit = NULL, $offset = NULL)
+    public function findLightStateBy(array $criteria = array(), $orderBy = array(), $limit = NULL, $offset = NULL)
     {
         return $this->findBy($criteria, $orderBy, $limit, $offset);
     }
 
-    public function findOneTemperatureBy(array $criteria = array(), array $orderBy = array())
+    public function findOneLightStateBy(array $criteria = array(), array $orderBy = array())
     {
         return $this->findOneBy($criteria, $orderBy);
     }
 
     /**
-     * @param $temperatureValue
-     * @return Temperature
+     * @param $lightStateValue
+     * @return LightState
      * @throws ORMException
      * @throws OptimisticLockException
      */
-    public function create($temperatureValue) {
+    public function create($lightStateValue) {
 
-        $temperature = new Temperature;
-        $temperature->setTemperature($temperatureValue);
-        $temperature->setDate(new DateTime());
+        $lightState = new LightState;
+        $lightState->setState($lightStateValue);
+        $lightState->setDate(new DateTime());
 
-        $this->em->persist($temperature);
+        $this->em->persist($lightState);
         $this->em->flush();
 
-        return $temperature;
+        return $lightState;
     }
 
     public function findFromDate(DateTime $date): array
@@ -88,28 +88,15 @@ final class TemperatureRepository extends EntityRepository {
         $qb = $this->em->createQueryBuilder();
 
         $qb->select('w');
-        $prepareStatement = $qb->from('App\Model\Entity\Temperature', 'w');
+        $prepareStatement = $qb->from('App\Model\Entity\LightState', 'w');
 
         return $prepareStatement
             ->where('w.date >= :searchDate')
             ->setParameter('searchDate', $date)
             ->getQuery()
             ->getResult();
-
     }
 
-    public function findBetweenDates(\DateTime $startDate, \DateTime $endDate): array
-    {
-        $qb = $this->createQueryBuilder('t');
-
-        return $qb->where('t.date >= :startDate')
-            ->andWhere('t.date <= :endDate')
-            ->setParameter('startDate', $startDate)
-            ->setParameter('endDate', $endDate)
-            ->orderBy('t.date', 'ASC')
-            ->getQuery()
-            ->getResult();
-    }
 
     public function deleteOlderThan(DateTime $date): int
     {

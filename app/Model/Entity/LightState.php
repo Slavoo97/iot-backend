@@ -9,12 +9,15 @@ namespace App\Model\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Model\Services\TemperatureRepository")
- * @ORM\Table(name="temperature")
+ * @ORM\Entity(repositoryClass="App\Model\Services\LightStateRepository")
+ * @ORM\Table(name="light_state")
  * @package App\Model\Entity
  */
-class Temperature
+class LightState
 {
+
+    const STATE_ON = 1;
+    const STATE_OFF = 0;
 
     /**
      *
@@ -27,10 +30,10 @@ class Temperature
 
     /**
      *
-     * @ORM\Column(type="string", nullable = false)
-     * @var string
+     * @ORM\Column(type="integer", nullable = false)
+     * @var int
      */
-    private $temperature;
+    private $state;
 
     /**
      *
@@ -56,19 +59,19 @@ class Temperature
     }
 
     /**
-     * @return string
+     * @return int
      */
-    public function getTemperature(): string
+    public function getState(): int
     {
-        return $this->temperature;
+        return $this->state;
     }
 
     /**
-     * @param string $temperature
+     * @param int $state
      */
-    public function setTemperature(string $temperature): void
+    public function setState(int $state): void
     {
-        $this->temperature = $temperature;
+        $this->state = $state;
     }
 
     /**

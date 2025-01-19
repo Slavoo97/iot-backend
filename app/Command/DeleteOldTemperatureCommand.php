@@ -4,7 +4,7 @@ namespace App\Command;
 
 use App\Model\Services\HumidityRepository;
 use App\Model\Services\ImageRepository;
-use App\Model\Services\TemperatureRepository;
+use App\Model\Services\LightStateRepository;
 use DateTime;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -15,8 +15,8 @@ class DeleteOldTemperatureCommand extends Command
 {
     protected static $defaultName = 'app:delete:old-temperatures';
 
-    /** @var TemperatureRepository */
-    private TemperatureRepository $temperatureRepository;
+    /** @var LightStateRepository */
+    private LightStateRepository $temperatureRepository;
 
     /** @var HumidityRepository */
     private HumidityRepository $humidityRepository;
@@ -24,7 +24,7 @@ class DeleteOldTemperatureCommand extends Command
     /** @var ImageRepository */
     private ImageRepository $imageRepository;
 
-    public function __construct(HumidityRepository $humidityRepository, TemperatureRepository $temperatureRepository, ImageRepository $imageRepository)
+    public function __construct(HumidityRepository $humidityRepository, LightStateRepository $temperatureRepository, ImageRepository $imageRepository)
     {
         parent::__construct();
         $this->temperatureRepository = $temperatureRepository;

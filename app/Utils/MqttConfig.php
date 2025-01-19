@@ -14,7 +14,7 @@ class MqttConfig
     private string $clientId;
 
     /** @var string */
-    private string $temperatureTopic;
+    private string $lightTopic;
 
     /** @var string */
     private string $humidityTopic;
@@ -22,8 +22,8 @@ class MqttConfig
     /** @var string */
     private string $imageTopic;
 
-    public function __construct($temperatureTopic, $host, $port, $clientId, $humidityTopic, $imageTopic) {
-        $this->temperatureTopic = $temperatureTopic;
+    public function __construct($lightTopic, $host, $port, $clientId, $humidityTopic, $imageTopic) {
+        $this->lightTopic = $lightTopic;
         $this->humidityTopic = $humidityTopic;
         $this->host = $host;
         $this->port = $port;
@@ -31,9 +31,9 @@ class MqttConfig
         $this->imageTopic = $imageTopic;
     }
 
-    public function getTemperatureTopic(): string
+    public function getLightTopic(): string
     {
-        return $this->temperatureTopic;
+        return $this->lightTopic;
     }
 
     public function getHost(): string

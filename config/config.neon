@@ -26,22 +26,22 @@ services:
 	- App\Http\ApiResponseFormatter
 	- App\Routing\RouterFactory
 	- App\Utils\Services\MqttService
-	- App\Utils\MqttConfig(temperatureTopic: %mqtt.temperature-topic%, host: %mqtt.host%, port: %mqtt.port%, clientId: %mqtt.clientId%, humidityTopic: %mqtt.humidity-topic%, imageTopic: %mqtt.image-topic%)
+	- App\Utils\MqttConfig(lightTopic: %mqtt.light-topic%, host: %mqtt.host%, port: %mqtt.port%, clientId: %mqtt.clientId%, humidityTopic: %mqtt.humidity-topic%, imageTopic: %mqtt.image-topic%)
 
 	router: @App\Routing\RouterFactory::create
 
 	# Api endpoints
 	#
 	- App\Controllers\ImagePostController
-	- App\Controllers\GetLastTemperatureController
+	- App\Controllers\GetLightStatisticsController
 	- App\Controllers\GetLastHumidityController
 	- App\Controllers\GetLastImageController
 	- App\Controllers\GenerateVideoController
 
 
-	TemperatureRepository:
-	    type: App\Model\Services\TemperatureRepository
-	    factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Temperature')
+	LightStateRepository:
+	    type: App\Model\Services\LightStateRepository
+	    factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\LightState')
 	HumidityRepository:
 		type: App\Model\Services\HumidityRepository
 		factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Humidity')
@@ -51,6 +51,3 @@ services:
 	commands.foo:
 	    class: App\Command\MqttSubscribeTemperatureCommand
 	    tags: [console.command: app:subscribe:temperature]
-	commands.bar:
-	    class: App\Command\MqttSubscribeHumidityCommand
-	    tags: [console.command: app:subscribe:humidity]
