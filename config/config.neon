@@ -49,5 +49,5 @@ services:
 	    type: App\Model\Services\ImageRepository
 	    factory: @Doctrine\ORM\EntityManagerInterface::getRepository('App\Model\Entity\Image')
 	commands.foo:
-	    class: App\Command\MqttSubscribeTemperatureCommand
-	    tags: [console.command: app:subscribe:temperature]
+	    class: App\Command\MqttSubscribeHumidityCommand
+	    tags: [console.command: app:subscribe:humidity]
