@@ -44,7 +44,7 @@ final class GetLastHumidityController extends AbstractController
 
             foreach ($data as $entry) {
                 $result[] = [
-                    'date' => $entry->getDate()->format('Y-m-d H:i:s'),
+                    'date' => $entry->getDate()->format('d-m-Y H:i:s'),
                     'value' => $entry->getHumidity()
                 ];
             }
