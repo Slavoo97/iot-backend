@@ -43,8 +43,10 @@ final class GetLastHumidityController extends AbstractController
             $data = $this->humidityRepository->findFromDate($startDate);
 
             foreach ($data as $entry) {
-                $result[]['date'] = $entry->getDate()->format('d-m-Y H:i:s');
-                $result[]['value'] = $entry->getHumidity();
+                $result[] = [
+                    'date' => $entry->getDate()->format('Y-m-d H:i:s'),
+                    'value' => $entry->getHumidity()
+                ];
             }
 
             return new JsonResponse($this->apiResponseFormatter->formatPayload($result), IResponse::S200_OK);
