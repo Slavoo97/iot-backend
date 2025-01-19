@@ -83,7 +83,11 @@ final class HumidityRepository extends EntityRepository {
         return $humidity;
     }
 
-    public function findFromDate(DateTime $date): array
+    /**
+     * @param DateTime $date
+     * @return Humidity[]
+     */
+    public function findFromDate(DateTime $date)
     {
         $qb = $this->em->createQueryBuilder();
 
