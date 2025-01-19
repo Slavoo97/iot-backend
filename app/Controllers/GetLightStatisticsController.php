@@ -72,7 +72,7 @@ final class GetLightStatisticsController extends AbstractController
         $previousState = null;
 
         foreach ($lightStates as $current) {
-            $currentDate = $current->getDate()->format('Y-m-d');
+            $currentDate = $current->getDate()->format('d.m.Y');
 
             if (!isset($dailyDurations[$currentDate])) {
                 $dailyDurations[$currentDate] = 0;
