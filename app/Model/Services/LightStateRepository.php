@@ -77,8 +77,12 @@ final class LightStateRepository extends EntityRepository {
         $lightState->setState($lightStateValue);
         $lightState->setDate(new DateTime());
 
-        $this->em->persist($lightState);
-        $this->em->flush();
+        try {
+            $this->em->persist($lightState);
+            $this->em->flush();
+        } catch (ORMException $e) {
+            throw $e;
+        }
 
         return $lightState;
     }
