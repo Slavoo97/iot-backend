@@ -13,7 +13,7 @@ doctrine.orm.annotations:
 
 doctrine.dbal:
     debug:
-        panel: %debugMode%
+        panel: true
     connection:
         driver: pdo_mysql
         host: %doctrine.host%
