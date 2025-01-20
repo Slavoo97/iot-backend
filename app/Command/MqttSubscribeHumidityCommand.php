@@ -111,8 +111,8 @@ class MqttSubscribeHumidityCommand extends Command
                 'callback' => function ($topic, $message) use ($io) {
                     $data = json_decode($message, true);
 
-                    if (isset($data['status'])) {
-                        $status = $data['status'];
+                    if (isset($data['light_status'])) {
+                        $status = $data['light_status'];
                         $io->text("Light toggled: {$status}");
 
                         $statusState = null;
